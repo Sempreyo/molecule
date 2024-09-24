@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link href="css/main.min.css" rel="stylesheet" type="text/css">
+    <title>Model</title>
+  </head>
+  <body>
+    <main class="main">
+      <div id="pagepiling">
+        <div class="graphic pp-scrollable">
+          <svg class="graphic__icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 2409.1 1612.5">
+            <path fill="#B0FFFF" d="M1898.5,1350.8c-0.4,25.7-21.2,46.5-47,46.8l-1256.3,13.5c-26.2,0.3-47.7-20.8-48-47c0-0.4,0-0.8,0-1.2				c0.4-25.7,21.2-46.5,47-46.8l1256.3-13.5c26.2-0.3,47.7,20.8,48,47C1898.5,1350,1898.5,1350.4,1898.5,1350.8z"></path>
+            <circle fill="#314FFF" cx="558.7" cy="1377.8" r="233.9"></circle>
+            <path fill="#3434E2" d="M371.6,1237.4c36.7-22.8,80.1-35.6,126.4-35c129.2,1.8,232.4,108,230.6,237.2c-0.7,51.5-18,98.9-46.8,137.1				c65.5-40.7,109.6-112.8,110.7-195.6c1.8-129.2-101.4-235.4-230.6-237.2C484.3,1142.8,414.9,1179.7,371.6,1237.4z"></path>
+            <path opacity="0.27" fill="#FFFFFF" d="M472.5,1537.9c22,12.4,47.1,21.4,72.1,18.4c25.1-3.1,49.5-21,53.7-45.9c3.8-22.6-9.4-45.2-27.2-59.6				c-17.8-14.4-39.8-22.4-60.8-31.4c-21.1-9-42.3-19.9-56.3-38.1c-7.4-9.7-12.7-21.4-22.3-28.9c-11.5-8.9-28.4-10.2-41-3				c-33.5,19-13.7,74.4-1.3,101.1C406.6,1487.4,437.1,1517.9,472.5,1537.9z"></path>
+            <ellipse transform="matrix(0.7071 -0.7071 0.7071 0.7071 -412.3804 1704.1042)" fill="#3BE3FF" cx="1850.8" cy="1349.8" rx="233.9" ry="233.9"></ellipse>
+            <path fill="#36D0FF" d="M1663.9,1209.7c36.7-22.8,80.1-35.6,126.4-35c129.2,1.8,232.4,108,230.6,237.2c-0.7,51.5-18,98.9-46.8,137.1				c65.5-40.7,109.6-112.8,110.7-195.6c1.8-129.2-101.4-235.4-230.6-237.2C1776.6,1115.1,1707.2,1152.1,1663.9,1209.7z"></path>
+            <path fill="#FFFFFF" opacity="0.46" d="M1764.8,1510.2c22,12.4,47.1,21.4,72.1,18.4c25.1-3.1,49.5-21,53.7-45.9c3.8-22.6-9.4-45.2-27.2-59.6				c-17.8-14.4-39.8-22.4-60.8-31.4c-21.1-9-42.3-19.9-56.3-38.1c-7.4-9.7-12.7-21.4-22.3-28.9c-11.5-8.9-28.4-10.2-41-3				c-33.5,19-13.7,74.4-1.3,101.1C1698.9,1459.7,1729.4,1490.3,1764.8,1510.2z"></path>
+            <circle fill="#B25AFF" cx="1205" cy="1372.1" r="233.9"></circle>
+            <path fill="#9145DB" d="M1017.9,1231.7c36.7-22.8,80.1-35.6,126.4-35c129.2,1.8,232.4,108,230.6,237.2c-0.7,51.5-18,98.9-46.8,137.1				c65.5-40.7,109.6-112.8,110.7-195.6c1.8-129.2-101.4-235.4-230.6-237.2C1130.6,1137.1,1061.2,1174.1,1017.9,1231.7z"></path>
+            <path fill="#FFFFFF" opacity="0.27" d="M1118.8,1532.2c22,12.4,47.1,21.4,72.1,18.4c25-3.1,49.5-21,53.7-45.9c3.8-22.6-9.4-45.2-27.2-59.6				c-17.8-14.4-39.8-22.4-60.8-31.4c-21.1-9-42.3-19.9-56.3-38.1c-7.4-9.7-12.7-21.4-22.3-28.9c-11.5-8.9-28.4-10.2-41-3				c-33.5,19-13.7,74.4-1.3,101.1C1052.9,1481.7,1083.4,1512.3,1118.8,1532.2z"></path>
+            <path fill="#B0FFFF" d="M1899.7,254.7c-0.4,25.7-21.2,46.5-47,46.8L596.5,315c-26.2,0.3-47.7-20.8-48-47c0-0.4,0-0.8,0-1.2				c0.4-25.7,21.2-46.5,47-46.8l1256.3-13.5c26.2-0.3,47.7,20.8,48,47C1899.7,253.9,1899.7,254.3,1899.7,254.7z"></path>
+            <circle fill="#3BE3FF" cx="596" cy="267.5" r="233.9"></circle>
+            <path fill="#36D0FF" d="M408.9,127.1c36.7-22.8,80.1-35.6,126.4-35c129.2,1.8,232.4,108,230.6,237.2c-0.7,51.5-18,98.9-46.8,137.1				c65.5-40.7,109.6-112.8,110.7-195.6c1.8-129.2-101.4-235.4-230.6-237.2C521.6,32.5,452.2,69.4,408.9,127.1z"></path>
+            <path fill="#FFFFFF" opacity="0.46" d="M509.8,427.6c22,12.4,47.1,21.4,72.1,18.4c25.1-3.1,49.5-21,53.7-45.9c3.8-22.6-9.4-45.2-27.2-59.6				C590.6,326,568.6,318,547.6,309s-42.3-19.9-56.3-38.1c-7.4-9.7-12.7-21.4-22.3-28.9c-11.5-8.9-28.4-10.2-41-3				c-33.5,19-13.7,74.4-1.3,101.1C443.9,377.1,474.4,407.7,509.8,427.6z"></path>
+            <path fill="#B0FFFF" d="M897.5,804.2c-0.4,26.2-21.9,47.2-48.2,46.8l-610.3-8.5c-26.2-0.4-47.2-21.9-46.8-48.2				c0.4-26.2,21.9-47.2,48.2-46.8l610.3,8.5C876.9,756.5,897.9,778,897.5,804.2z"></path>
+            <circle fill="#3BE3FF" cx="239.7" cy="795" r="233.9"></circle>
+            <path fill="#36D0FF" d="M52.6,654.7c36.7-22.8,80.1-35.6,126.4-35c129.2,1.8,232.4,108,230.6,237.2c-0.7,51.5-18,98.9-46.8,137.1				c65.5-40.7,109.6-112.8,110.7-195.6C475.4,669.1,372.2,563,243,561.2C165.3,560.1,96,597,52.6,654.7z"></path>
+            <path fill="#FFFFFF" opacity="0.46" d="M153.6,955.1c22,12.4,47.1,21.4,72.1,18.4c25.1-3.1,49.5-21,53.7-45.9c3.9-22.6-9.4-45.2-27.2-59.6				c-17.8-14.4-39.8-22.4-60.8-31.4c-21.1-9-42.3-19.9-56.3-38.1c-7.4-9.7-12.7-21.4-22.3-28.9c-11.5-8.9-28.4-10.2-41-3				c-33.5,19-13.7,74.4-1.3,101.1C87.7,904.7,118.2,935.2,153.6,955.1z"></path>
+            <circle fill="#B25AFF" cx="850" cy="803.6" r="233.9"></circle>
+            <path fill="#9145DB" d="M662.9,663.2c36.7-22.8,80.1-35.6,126.4-35c129.2,1.8,232.4,108,230.6,237.2c-0.7,51.5-18,98.9-46.8,137.1				c65.5-40.7,109.6-112.8,110.7-195.6c1.8-129.2-101.4-235.4-230.6-237.2C775.6,568.6,706.3,605.5,662.9,663.2z"></path>
+            <path fill="#FFFFFF" opacity="0.27" d="M763.9,963.7c22,12.4,47.1,21.4,72.1,18.4c25-3.1,49.5-21,53.7-45.9c3.8-22.6-9.4-45.2-27.2-59.6				c-17.8-14.4-39.8-22.4-60.8-31.4c-21.1-9-42.3-19.9-56.3-38.1c-7.4-9.7-12.7-21.4-22.3-28.9c-11.5-8.9-28.4-10.2-41-3				c-33.5,19-13.7,74.4-1.3,101.1C697.9,913.2,728.5,943.7,763.9,963.7z"></path>
+            <path fill="#B0FFFF" d="M2219.4,822.7c-0.4,26.2-21.9,47.2-48.2,46.8L1561,861c-26.2-0.4-47.2-21.9-46.8-48.2				c0.4-26.2,21.9-47.2,48.2-46.8l610.3,8.5C2198.8,775,2219.8,796.5,2219.4,822.7z"></path>
+            <circle fill="#3BE3FF" cx="1561.7" cy="813.5" r="233.9"></circle>
+            <path fill="#36D0FF" d="M1374.5,673.2c36.7-22.8,80.1-35.6,126.4-35c129.2,1.8,232.4,108,230.6,237.2c-0.7,51.5-18,98.9-46.8,137.1				c65.5-40.7,109.6-112.8,110.7-195.6c1.8-129.2-101.4-235.4-230.6-237.2C1487.2,578.6,1417.9,615.5,1374.5,673.2z"></path>
+            <path fill="#FFFFFF" opacity="0.46" d="M1475.5,973.6c22,12.4,47.1,21.4,72.1,18.4c25.1-3.1,49.5-21,53.7-45.9c3.8-22.6-9.4-45.2-27.2-59.6				c-17.8-14.4-39.8-22.4-60.8-31.4c-21.1-9-42.3-19.9-56.3-38.1c-7.4-9.7-12.7-21.4-22.3-28.9c-11.5-8.9-28.4-10.2-41-3				c-33.5,19-13.7,74.4-1.3,101.1C1409.6,923.2,1440.1,953.7,1475.5,973.6z"></path>
+            <circle fill="#B25AFF" cx="2171.9" cy="822.1" r="233.9"></circle>
+            <path fill="#9145DB" d="M1984.8,681.7c36.7-22.8,80.1-35.6,126.4-35c129.2,1.8,232.4,108,230.6,237.2c-0.7,51.5-18,98.9-46.8,137.1				c65.5-40.7,109.6-112.8,110.7-195.6c1.8-129.2-101.4-235.4-230.6-237.2C2097.5,587.1,2028.2,624,1984.8,681.7z"></path>
+            <path fill="#FFFFFF" opacity="0.27" d="M2085.8,982.2c22,12.4,47.1,21.4,72.1,18.4c25-3.1,49.5-21,53.7-45.9c3.8-22.6-9.4-45.2-27.2-59.6				c-17.8-14.4-39.8-22.4-60.8-31.4c-21.1-9-42.3-19.9-56.3-38.1c-7.4-9.7-12.7-21.4-22.3-28.9c-11.5-8.9-28.4-10.2-41-3				c-33.5,19-13.7,74.4-1.3,101.1C2019.9,931.7,2050.4,962.2,2085.8,982.2z"></path>
+            <circle fill="#FF8B17" cx="1201.7" cy="260.5" r="233.9"></circle>
+            <path fill="#FF7610" d="M1014.6,120.1c36.7-22.8,80.1-35.6,126.4-35c129.2,1.8,232.4,108,230.6,237.2c-0.7,51.5-18,98.9-46.8,137.1				c65.5-40.7,109.6-112.8,110.7-195.6c1.8-129.2-101.4-235.4-230.6-237.2C1127.3,25.5,1057.9,62.4,1014.6,120.1z"></path>
+            <path fill="#FFFFFF" opacity="0.27" d="M1115.5,420.5c22,12.4,47.1,21.4,72.1,18.4c25-3.1,49.5-21,53.7-45.9c3.8-22.6-9.4-45.2-27.2-59.6				c-17.8-14.4-39.8-22.4-60.8-31.4c-21.1-9-42.3-19.9-56.3-38.1c-7.4-9.7-12.7-21.4-22.3-28.9c-11.5-8.9-28.4-10.2-41-3				c-33.5,19-13.7,74.4-1.3,101.1C1049.6,370.1,1080.1,400.6,1115.5,420.5z"></path>
+            <circle fill="#314FFF" cx="1889" cy="239" r="233.9"></circle>
+            <path fill="#3434E2" d="M1701.9,98.7c36.7-22.8,80.1-35.6,126.4-35c129.2,1.8,232.4,108,230.6,237.2c-0.7,51.5-18,98.9-46.8,137.1				c65.5-40.7,109.6-112.8,110.7-195.6c1.8-129.2-101.4-235.4-230.6-237.2C1814.6,4.1,1745.2,41,1701.9,98.7z"></path>
+            <path fill="#FFFFFF" opacity="0.27" d="M1802.8,399.1c22,12.4,47.1,21.4,72.1,18.4c25.1-3.1,49.5-21,53.7-45.9c3.8-22.6-9.4-45.2-27.2-59.6				c-17.8-14.4-39.8-22.4-60.8-31.4c-21.1-9-42.3-19.9-56.3-38.1c-7.4-9.7-12.7-21.4-22.3-28.9c-11.5-8.9-28.4-10.2-41-3				c-33.5,19-13.7,74.4-1.3,101.1C1736.9,348.6,1767.4,379.2,1802.8,399.1z"></path>
+          </svg>
+        </div>
+        <div class="graphic pp-scrollable desc desc--4 anim-opacity" data-tab="tab-1">
+          <div class="desc__title"><span class="desc__title-num"><span>O</span>1</span><span class="desc__title-text" style="opacity: 1; transform: translateY(0)">Медицина</span>
+            <svg>
+              <use xlink:href="./images/sprite.svg#slide-1"></use>
+            </svg>
+          </div>
+          <div class="desc__main">
+            <div class="desc__item">
+              <div class="desc__image">
+                <svg>
+                  <use xlink:href="./images/sprite.svg#slide-1-1"></use>
+                </svg>
+              </div>
+              <div class="desc__text" style="opacity: 1; transform: translateY(0)">Создание и тестирование лекарств</div>
+            </div>
+            <div class="desc__item">
+              <div class="desc__image">
+                <svg>
+                  <use xlink:href="./images/sprite.svg#slide-1-2"></use>
+                </svg>
+              </div>
+              <div class="desc__text" style="opacity: 1; transform: translateY(0)">Персонализированные лекарства</div>
+            </div>
+            <div class="desc__item">
+              <div class="desc__image">
+                <svg>
+                  <use xlink:href="./images/sprite.svg#slide-1-3"></use>
+                </svg>
+              </div>
+              <div class="desc__text" style="opacity: 1; transform: translateY(0)">Диагностика заболеваний на раней стадии</div>
+            </div>
+            <div class="desc__item">
+              <div class="desc__image">
+                <svg>
+                  <use xlink:href="./images/sprite.svg#slide-1-4"></use>
+                </svg>
+              </div>
+              <div class="desc__text" style="opacity: 1; transform: translateY(0)">Улучшенная визуализация КТ и МРТ снимков</div>
+            </div>
+          </div>
+        </div>
+        <div class="graphic pp-scrollable desc desc--2" data-tab="tab-2">
+          <div class="desc__title"><span class="desc__title-num"><span>O</span>2</span><span class="desc__title-text">Криптография</span>
+            <svg>
+              <use xlink:href="./images/sprite.svg#slide-2"></use>
+            </svg>
+          </div>
+          <div class="desc__main">
+            <div class="desc__item">
+              <div class="desc__image">
+                <svg>
+                  <use xlink:href="./images/sprite.svg#slide-2-1"></use>
+                </svg>
+              </div>
+              <div class="desc__text">Безопасная передача данных</div>
+            </div>
+            <div class="desc__item">
+              <div class="desc__image">
+                <svg>
+                  <use xlink:href="./images/sprite.svg#slide-2-2"></use>
+                </svg>
+              </div>
+              <div class="desc__text">Попытка взлома будет обнаружена</div>
+            </div>
+          </div>
+        </div>
+        <div class="graphic pp-scrollable desc desc--3" data-tab="tab-3">
+          <div class="desc__title"><span class="desc__title-num"><span>O</span>3</span><span class="desc__title-text">Транспорт, логистика</span>
+            <svg>
+              <use xlink:href="./images/sprite.svg#slide-3"></use>
+            </svg>
+          </div>
+          <div class="desc__main">
+            <div class="desc__item">
+              <div class="desc__image">
+                <svg>
+                  <use xlink:href="./images/sprite.svg#slide-3-1"></use>
+                </svg>
+              </div>
+              <div class="desc__text">Построение оптимальных маршрутов</div>
+            </div>
+            <div class="desc__item">
+              <div class="desc__image">
+                <svg>
+                  <use xlink:href="./images/sprite.svg#slide-3-2"></use>
+                </svg>
+              </div>
+              <div class="desc__text">Формирование логистических цепочек</div>
+            </div>
+            <div class="desc__item">
+              <div class="desc__image">
+                <svg>
+                  <use xlink:href="./images/sprite.svg#slide-3-3"></use>
+                </svg>
+              </div>
+              <div class="desc__text">Создание графиков и смен водителей, курьеров и т.д</div>
+            </div>
+          </div>
+        </div>
+        <div class="graphic pp-scrollable desc desc--3" data-tab="tab-4">
+          <div class="desc__title"><span class="desc__title-num"><span>O</span>4</span><span class="desc__title-text">Моделирование молекул</span>
+            <svg>
+              <use xlink:href="./images/sprite.svg#slide-4"></use>
+            </svg>
+          </div>
+          <div class="desc__main">
+            <div class="desc__item">
+              <div class="desc__image">
+                <svg>
+                  <use xlink:href="./images/sprite.svg#slide-4-1"></use>
+                </svg>
+              </div>
+              <div class="desc__text">Поиск новых материалов</div>
+            </div>
+            <div class="desc__item">
+              <div class="desc__image">
+                <svg>
+                  <use xlink:href="./images/sprite.svg#slide-4-2"></use>
+                </svg>
+              </div>
+              <div class="desc__text">Изучение поведения веществ</div>
+            </div>
+            <div class="desc__item">
+              <div class="desc__image">
+                <svg>
+                  <use xlink:href="./images/sprite.svg#slide-4-3"></use>
+                </svg>
+              </div>
+              <div class="desc__text">Замена дорогостоящим опытам</div>
+            </div>
+          </div>
+        </div>
+        <div class="graphic pp-scrollable desc desc--4" data-tab="tab-5">
+          <div class="desc__title"><span class="desc__title-num"><span>O</span>5</span><span class="desc__title-text">Финансы</span>
+            <svg>
+              <use xlink:href="./images/sprite.svg#slide-5"></use>
+            </svg>
+          </div>
+          <div class="desc__main">
+            <div class="desc__item">
+              <div class="desc__image">
+                <svg>
+                  <use xlink:href="./images/sprite.svg#slide-5-1"></use>
+                </svg>
+              </div>
+              <div class="desc__text">Управление активами и инвестициями</div>
+            </div>
+            <div class="desc__item">
+              <div class="desc__image">
+                <svg>
+                  <use xlink:href="./images/sprite.svg#slide-5-2"></use>
+                </svg>
+              </div>
+              <div class="desc__text">Оценка рисков</div>
+            </div>
+            <div class="desc__item">
+              <div class="desc__image">
+                <svg>
+                  <use xlink:href="./images/sprite.svg#slide-5-3"></use>
+                </svg>
+              </div>
+              <div class="desc__text">Кредитный скоринг</div>
+            </div>
+            <div class="desc__item">
+              <div class="desc__image">
+                <svg>
+                  <use xlink:href="./images/sprite.svg#slide-5-4"></use>
+                </svg>
+              </div>
+              <div class="desc__text">Выявление мошенничества</div>
+            </div>
+          </div>
+        </div>
+        <div class="graphic pp-scrollable desc desc--2" data-tab="tab-6">
+          <div class="desc__title"><span class="desc__title-num"><span>O</span>6</span><span class="desc__title-text">Улучшение покрытия спутников</span>
+            <svg>
+              <use xlink:href="./images/sprite.svg#slide-6"></use>
+            </svg>
+          </div>
+          <div class="desc__main">
+            <div class="desc__item">
+              <div class="desc__image">
+                <svg>
+                  <use xlink:href="./images/sprite.svg#slide-6-1"></use>
+                </svg>
+              </div>
+              <div class="desc__text">Юстировка спутников</div>
+            </div>
+            <div class="desc__item">
+              <div class="desc__image">
+                <svg>
+                  <use xlink:href="./images/sprite.svg#slide-6-2"></use>
+                </svg>
+              </div>
+              <div class="desc__text">Лучшее покрытие для моби&shy;льной и спутниковой связи</div>
+            </div>
+          </div>
+        </div>
+        <div class="graphic pp-scrollable desc desc--3" data-tab="tab-7">
+          <div class="desc__title"><span class="desc__title-num"><span>O</span>7</span><span class="desc__title-text">Более эффективная реклама</span>
+            <svg>
+              <use xlink:href="./images/sprite.svg#slide-7"></use>
+            </svg>
+          </div>
+          <div class="desc__main">
+            <div class="desc__item">
+              <div class="desc__image">
+                <svg>
+                  <use xlink:href="./images/sprite.svg#slide-7-1"></use>
+                </svg>
+              </div>
+              <div class="desc__text">Персональные предложения</div>
+            </div>
+            <div class="desc__item">
+              <div class="desc__image">
+                <svg>
+                  <use xlink:href="./images/sprite.svg#slide-7-2"></use>
+                </svg>
+              </div>
+              <div class="desc__text">Учет индивидуальных особенностей</div>
+            </div>
+            <div class="desc__item">
+              <div class="desc__image">
+                <svg>
+                  <use xlink:href="./images/sprite.svg#slide-7-3"></use>
+                </svg>
+              </div>
+              <div class="desc__text">Более эффективное медиапланирование</div>
+            </div>
+          </div>
+        </div>
+        <div class="graphic pp-scrollable desc desc--2" data-tab="tab-8">
+          <div class="desc__title"><span class="desc__title-num"><span>O</span>8</span><span class="desc__title-text">Искуственный интеллект</span>
+            <svg>
+              <use xlink:href="./images/sprite.svg#slide-8"></use>
+            </svg>
+          </div>
+          <div class="desc__main">
+            <div class="desc__item">
+              <div class="desc__image">
+                <svg>
+                  <use xlink:href="./images/sprite.svg#slide-8-1"></use>
+                </svg>
+              </div>
+              <div class="desc__text">Ускоренное обучение моделей</div>
+            </div>
+            <div class="desc__item">
+              <div class="desc__image">
+                <svg>
+                  <use xlink:href="./images/sprite.svg#slide-8-2"></use>
+                </svg>
+              </div>
+              <div class="desc__text">Более высокая точность и скорость ответов нейросетей</div>
+            </div>
+          </div>
+        </div>
+        <div class="graphic pp-scrollable desc desc--2" data-tab="tab-9">
+          <div class="desc__title"><span class="desc__title-num"><span>O</span>9</span><span class="desc__title-text">Прогноз погоды</span>
+            <svg>
+              <use xlink:href="./images/sprite.svg#slide-9"></use>
+            </svg>
+          </div>
+          <div class="desc__main">
+            <div class="desc__item">
+              <div class="desc__image">
+                <svg>
+                  <use xlink:href="./images/sprite.svg#slide-9-1"></use>
+                </svg>
+              </div>
+              <div class="desc__text">Более высокая точность</div>
+            </div>
+            <div class="desc__item">
+              <div class="desc__image">
+                <svg>
+                  <use xlink:href="./images/sprite.svg#slide-9-2"></use>
+                </svg>
+              </div>
+              <div class="desc__text">Большая глубина прогнозов</div>
+            </div>
+          </div>
+        </div>
+        <div class="graphic pp-scrollable desc desc--3" data-tab="tab-10">
+          <div class="desc__title"><span class="desc__title-num">1<span>O</span></span><span class="desc__title-text">Предсказаниe пандемий</span>
+            <svg width="330" height="228">
+              <use xlink:href="./images/sprite.svg#slide-10"></use>
+            </svg>
+          </div>
+          <div class="desc__main">
+            <div class="desc__item">
+              <div class="desc__image">
+                <svg width="200" height="131">
+                  <use xlink:href="./images/sprite.svg#slide-10-1"></use>
+                </svg>
+              </div>
+              <div class="desc__text">Просчет сценариев распространения вирусов</div>
+            </div>
+            <div class="desc__item">
+              <div class="desc__image">
+                <svg width="130" height="130">
+                  <use xlink:href="./images/sprite.svg#slide-10-2"></use>
+                </svg>
+              </div>
+              <div class="desc__text">Отслеживание эпидемиоло&shy;гической ситуации в мире</div>
+            </div>
+            <div class="desc__item">
+              <div class="desc__image">
+                <svg width="130" height="130">
+                  <use xlink:href="./images/sprite.svg#slide-10-3"></use>
+                </svg>
+              </div>
+              <div class="desc__text">Заблаговременное преду&shy;преждение населения</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--section.graphic
+      .graphic__wrapper
+      	.graphic__left
+      		.canvas
+      			.canvas__wrapper
+      				.canvas__window.canvas__window--overlay
+      				.canvas__note
+      					.canvas__note-item.canvas__note-item--1
+      						+icon("cursor")(width="20", height="20")
+      						span Вращайте решетку
+      					.canvas__note-item.canvas__note-item--2
+      						+icon("cursor-click")(width="20", height="20")
+      						span Кликайте на атомы для перехода к слайду
+      					.canvas__note-item.canvas__note-item--3
+      						+icon("cursor-scroll")(width="20", height="20")
+      						span Приближайте и отдаляйте решетку
+      				//.canvas__image
+      					+icon("projector")
+      	.graphic__right
+      		.graphic__tabs
+      			.graphic__tab.desc.desc--4.anim-opacity(data-tab="tab-1", style="display: block")
+      				.desc__title
+      					span.desc__title-num <span>O</span>1
+      					span.desc__title-text(style="opacity: 1; transform: translateY(0)") Медицина
+      					+icon("slide-1")
+      				.desc__main
+      					.desc__item
+      						.desc__image
+      							+icon("slide-1-1")
+      						.desc__text(style="opacity: 1; transform: translateY(0)") Создание и тестирование лекарств
+      					.desc__item
+      						.desc__image
+      							+icon("slide-1-2")
+      						.desc__text(style="opacity: 1; transform: translateY(0)") Персонализированные лекарства
+      					.desc__item
+      						.desc__image
+      							+icon("slide-1-3")
+      						.desc__text(style="opacity: 1; transform: translateY(0)") Диагностика заболеваний на раней стадии
+      					.desc__item
+      						.desc__image
+      							+icon("slide-1-4")
+      						.desc__text(style="opacity: 1; transform: translateY(0)") Улучшенная визуализация КТ и МРТ снимков
+      			.graphic__tab.desc.desc--2(data-tab="tab-2")
+      				.desc__title
+      					span.desc__title-num <span>O</span>2
+      					span.desc__title-text Криптография
+      					+icon("slide-2")
+      				.desc__main
+      					.desc__item
+      						.desc__image
+      							+icon("slide-2-1")
+      						.desc__text Безопасная передача данных
+      					.desc__item
+      						.desc__image
+      							+icon("slide-2-2")
+      						.desc__text Попытка взлома будет обнаружена
+      			.graphic__tab.desc.desc--3(data-tab="tab-3")
+      				.desc__title
+      					span.desc__title-num <span>O</span>3
+      					span.desc__title-text Транспорт, логистика
+      					+icon("slide-3")
+      				.desc__main
+      					.desc__item
+      						.desc__image
+      							+icon("slide-3-1")
+      						.desc__text Построение оптимальных маршрутов
+      					.desc__item
+      						.desc__image
+      							+icon("slide-3-2")
+      						.desc__text Формирование логистических цепочек
+      					.desc__item
+      						.desc__image
+      							+icon("slide-3-3")
+      						.desc__text Создание графиков и смен водителей, курьеров и т.д
+      			.graphic__tab.desc.desc--3(data-tab="tab-4")
+      				.desc__title
+      					span.desc__title-num <span>O</span>4
+      					span.desc__title-text Моделирование молекул
+      					+icon("slide-4")
+      				.desc__main
+      					.desc__item
+      						.desc__image
+      							+icon("slide-4-1")
+      						.desc__text Поиск новых материалов
+      					.desc__item
+      						.desc__image
+      							+icon("slide-4-2")
+      						.desc__text Изучение поведения веществ
+      					.desc__item
+      						.desc__image
+      							+icon("slide-4-3")
+      						.desc__text Замена дорогостоящим опытам
+      			.graphic__tab.desc.desc--4(data-tab="tab-5")
+      				.desc__title
+      					span.desc__title-num <span>O</span>5
+      					span.desc__title-text Финансы
+      					+icon("slide-5")
+      				.desc__main
+      					.desc__item
+      						.desc__image
+      							+icon("slide-5-1")
+      						.desc__text Управление активами и инвестициями
+      					.desc__item
+      						.desc__image
+      							+icon("slide-5-2")
+      						.desc__text Оценка рисков
+      					.desc__item
+      						.desc__image
+      							+icon("slide-5-3")
+      						.desc__text Кредитный скоринг
+      					.desc__item
+      						.desc__image
+      							+icon("slide-5-4")
+      						.desc__text Выявление мошенничества
+      			.graphic__tab.desc.desc--2(data-tab="tab-6")
+      				.desc__title
+      					span.desc__title-num <span>O</span>6
+      					span.desc__title-text Улучшение покрытия спутников
+      					+icon("slide-6")
+      				.desc__main
+      					.desc__item
+      						.desc__image
+      							+icon("slide-6-1")
+      						.desc__text Юстировка спутников
+      					.desc__item
+      						.desc__image
+      							+icon("slide-6-2")
+      						.desc__text Лучшее покрытие для моби&shy;льной и спутниковой связи
+      			.graphic__tab.desc.desc--3(data-tab="tab-7")
+      				.desc__title
+      					span.desc__title-num <span>O</span>7
+      					span.desc__title-text Более эффективная реклама
+      					+icon("slide-7")
+      				.desc__main
+      					.desc__item
+      						.desc__image
+      							+icon("slide-7-1")
+      						.desc__text Персональные предложения
+      					.desc__item
+      						.desc__image
+      							+icon("slide-7-2")
+      						.desc__text Учет индивидуальных особенностей
+      					.desc__item
+      						.desc__image
+      							+icon("slide-7-3")
+      						.desc__text Более эффективное медиапланирование
+      			.graphic__tab.desc.desc--2(data-tab="tab-8")
+      				.desc__title
+      					span.desc__title-num <span>O</span>8
+      					span.desc__title-text Искуственный интеллект
+      					+icon("slide-8")
+      				.desc__main
+      					.desc__item
+      						.desc__image
+      							+icon("slide-8-1")
+      						.desc__text Ускоренное обучение моделей
+      					.desc__item
+      						.desc__image
+      							+icon("slide-8-2")
+      						.desc__text Более высокая точность и скорость ответов нейросетей
+      			.graphic__tab.desc.desc--2(data-tab="tab-9")
+      				.desc__title
+      					span.desc__title-num <span>O</span>9
+      					span.desc__title-text Прогноз погоды
+      					+icon("slide-9")
+      				.desc__main
+      					.desc__item
+      						.desc__image
+      							+icon("slide-9-1")
+      						.desc__text Более высокая точность
+      					.desc__item
+      						.desc__image
+      							+icon("slide-9-2")
+      						.desc__text Большая глубина прогнозов
+      			.graphic__tab.desc.desc--3(data-tab="tab-10")
+      				.desc__title
+      					span.desc__title-num 1<span>O</span>
+      					span.desc__title-text Предсказаниe пандемий
+      					+icon("slide-10")(width="330", height="228")
+      				.desc__main
+      					.desc__item
+      						.desc__image
+      							+icon("slide-10-1")(width="200", height="131")
+      						.desc__text Просчет сценариев распространения вирусов
+      					.desc__item
+      						.desc__image
+      							+icon("slide-10-2")(width="130", height="130")
+      						.desc__text Отслеживание эпидемиоло&shy;гической ситуации в мире
+      					.desc__item
+      						.desc__image
+      							+icon("slide-10-3")(width="130", height="130")
+      						.desc__text Заблаговременное преду&shy;преждение населения
+      .graphic__logo
+      	+icon("logo")
+      -->
+    </main>
+  </body>
+  <script src="./js/main.min.js"></script>
+</html>
