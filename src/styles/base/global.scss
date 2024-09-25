@@ -40,8 +40,8 @@ body {
 	scroll-behavior: smooth;
 	text-rendering: optimizeSpeed;
 	font-family: $mainFont;
-	background-color: $bg-color;
-	color: $white;
+	background-color: $white;
+	color: $black;
 
 	/* iOS fix */
 	-webkit-font-smoothing: antialiased;

@@ -28,17 +28,24 @@
 }
 
 @keyframes moveUp {
-	0%,
-	30% {
+	0% {
 		transform: translateY(0);
 	}
 
-	10% {
+	25% {
 		transform: translateY(5px);
 	}
 
-	20% {
+	50% {
+		transform: translateY(0);
+	}
+
+	75% {
 		transform: translateY(-5px);
+	}
+
+	100% {
+		transform: translateY(0);
 	}
 }
 
@@ -50,5 +57,15 @@
 
 	3% {
 		transform: scale(0.8);
+	}
+}
+
+@keyframes rotate360 {
+	0% {
+		transform: rotate(0);
+	}
+
+	100% {
+		transform: rotate(360deg);
 	}
 }

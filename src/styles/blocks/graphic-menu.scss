@@ -1,0 +1,125 @@
+.graphic-menu {
+    $parent: &;
+
+    position: absolute;
+    z-index: 100;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80px;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    gap: 0 15px;
+    padding: 0 20px;
+    background-color: $bg-color;
+    box-shadow: 10px 10px 40px 0px rgba(34, 60, 80, 0.2);
+
+    @include min(ti) {
+        width: auto;
+        height: auto;
+		top: 50%;
+        left: unset;
+        right: 40px;
+        transform: translateY(-50%);
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 20px;
+        padding: 0;
+        background-color: unset;
+        box-shadow: unset;
+	}
+
+    li {
+        a {
+            position: relative;
+            display: block;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            border: 1px solid rgba($white, 0.7);
+            transition: 0.3s ease;
+
+            @include min(ti) {
+                width: 30px;
+                height: 30px;
+            }
+
+            &:hover #{$parent}__label {
+                pointer-events: auto;
+    
+                span {
+                    transform: translateX(0);
+                    opacity: 1;
+                }
+            }
+        }
+
+        &.active,
+        &:hover {
+            a {
+                border-color: transparent;
+            }
+
+            &:nth-child(1) {
+                a {
+                    background-color: $white;
+                }
+            }
+    
+            &:nth-child(2),
+            &:nth-child(5),
+            &:nth-child(7),
+            &:nth-child(11) {
+                a {
+                    background-color: #3be3ff;
+                }
+            }
+    
+            &:nth-child(3) {
+                a {
+                    background-color: #ff8b17;
+                }
+            }
+    
+            &:nth-child(4),
+            &:nth-child(9) {
+                a {
+                    background-color: #314fff;
+                }
+            }
+    
+            &:nth-child(6),
+            &:nth-child(8),
+            &:nth-child(10) {
+                a {
+                    background-color: #b25aff;
+                }
+            }
+        }
+    }
+
+    &__label {
+        position: absolute;
+        top: 50%;
+        right: calc(100% + 10px);
+        transform: translateY(-50%);
+        color: $white;
+        text-align: right;
+        pointer-events: none;
+        overflow: hidden;
+
+        span {
+            display: block;
+            transform: translateX(100%);
+            transition: 0.3s ease;
+            opacity: 0;
+            background-color: $black;
+            border-radius: 5px;
+            padding: 8px;
+        }
+    }
+}

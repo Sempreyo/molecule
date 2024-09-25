@@ -21,7 +21,7 @@
 .desc {
     $parent: &;
 
-    &:nth-child(1) {
+    &:nth-child(2) {
         @include color(#29b579);
 
         #{$parent}__title::after {
@@ -42,7 +42,7 @@
         }
     }
 
-    &:nth-child(2) {
+    &:nth-child(3) {
         #{$parent}__title svg {
             @include min(ti) {
                 top: vw(25);
@@ -53,7 +53,7 @@
         }
     }
 
-    &:nth-child(3) {
+    &:nth-child(4) {
         @include color(#f8104b);
 
         #{$parent}__item:nth-child(2)::after {
@@ -70,7 +70,7 @@
         }
     }
 
-    &:nth-child(4) {
+    &:nth-child(5) {
         @include color(#1d7372);
         #{$parent}__item:nth-child(2)::after {
             background-color: #1d7372;
@@ -86,7 +86,7 @@
         }
     }
 
-    &:nth-child(5) {
+    &:nth-child(6) {
         @include color(#00a6b4);
 
         #{$parent}__title::after {
@@ -107,7 +107,7 @@
         }
     }
 
-    &:nth-child(6) {
+    &:nth-child(7) {
         @include color(#1d7372);
 
         #{$parent}__title svg {
@@ -120,7 +120,7 @@
         }
     }
 
-    &:nth-child(7) {
+    &:nth-child(8) {
         @include color(#c0392b);
         #{$parent}__item:nth-child(2)::after {
             background-color: #c0392b;
@@ -136,7 +136,7 @@
         }
     }
 
-    &:nth-child(8) {
+    &:nth-child(9) {
         @include color(#2c92e5);
 
         #{$parent}__title svg {
@@ -149,7 +149,7 @@
         }
     }
 
-    &:nth-child(9) {
+    &:nth-child(10) {
         @include color(#2dcc70);
 
         #{$parent}__title svg {
@@ -162,7 +162,7 @@
         }
     }
 
-    &:nth-child(10) {
+    &:nth-child(11) {
         @include color(#7cbb3b);
         #{$parent}__item:nth-child(2)::after {
             background-color: #7cbb3b;
@@ -213,7 +213,7 @@
 
         &::before {
             top: 100%;
-            width: 50%;
+            width: 40%;
             height: 274px;
             border-left: 1px solid #7cbb3b;
             border-bottom: 1px solid #7cbb3b;
@@ -299,6 +299,26 @@
             max-width: vw(955);
             padding-left: vw(193);
             padding-top: vw(128);
+            margin-right: vw(120);
+            margin-bottom: vw(80);
+            float: left;
+		}
+    }
+
+    &__content {
+        font-size: 14px;
+        line-height: 1.4;
+        padding-top: 30px;
+        opacity: 0;
+        transition: 0.3s ease;
+
+        @include min(ti) {
+            font-size: 16px;
+            padding-top: vw(128);
+		}
+
+        @include min(tl) {
+            font-size: 20px;
 		}
     }
 
