@@ -1,0 +1,23 @@
+.graphic-tooltip {
+	position: absolute;
+	z-index: 13;
+	display: none;
+	width: 250px;
+	padding: 20px;
+	background-color: $white;
+	font-size: 20px;
+	color: $black;
+	border-radius: 8px;
+	text-align: center;
+	opacity: 0;
+	pointer-events: none;
+	transition: 0.3s ease;
+
+	@include min(ti) {
+		display: block;
+	}
+
+	&--open {
+		opacity: 1;
+	}
+}
