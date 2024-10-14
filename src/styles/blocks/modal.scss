@@ -1,0 +1,32 @@
+.modal {
+	padding: 30px 70px 50px 30px;
+
+	@include max(ti) {
+		padding: 60px 20px 50px;
+	}
+
+	&__content {
+		color: $white;
+
+		b {
+			display: block;
+			margin-bottom: 5px;
+		}
+
+		a {
+			color: $white;
+			text-decoration: underline;
+			text-underline-offset: 3px;
+
+			&:hover {
+				text-decoration: none;
+			}
+		}
+
+		p {
+			& + p {
+				margin-top: 30px;
+			}
+		}
+	}
+}

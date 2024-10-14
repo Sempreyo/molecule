@@ -7,6 +7,10 @@
 		padding: 50px 100px 50px 50px;
 	}
 
+	@media (max-width: 1023px) and (orientation: landscape) {
+		padding: 80px 20px 50px;
+	}
+
 	&--bg {
 		display: flex;
 		align-items: center;
@@ -20,7 +24,7 @@
 			inset: 0;
 			bottom: -5px;
 			background-color: rgba($black, 0.4);
-    		backdrop-filter: blur(20px);
+			backdrop-filter: blur(20px);
 		}
 	}
 
@@ -29,7 +33,10 @@
 		max-width: 800px;
 		width: 100%;
 		overflow: visible;
-		//height: 100%;
+
+		@media (max-width: 1023px) and (orientation: landscape) {
+			max-width: 40%;
+		}
 
 		g {
 			position: relative;

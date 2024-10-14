@@ -1,4 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => {
+	const myModal = new HystModal({
+		linkAttributeName: "data-hystmodal"
+	});
+
 	$("#pagepiling").pagepiling({
 		sectionSelector: ".graphic",
 		direction: "vertical",

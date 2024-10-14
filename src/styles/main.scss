@@ -1,5 +1,6 @@
 /* Libs */
 @import "libs/jquery.pagepiling.min.css";
+@import "libs/hystmodal.min.css";
 
 /* Base */
 @import "base/var";
@@ -9,9 +10,12 @@
 @import "base/global";
 
 /* Blocks */
+@import "blocks/button";
 @import "blocks/graphic";
 @import "blocks/canvas";
 @import "blocks/desc";
 @import "blocks/graphic-menu";
 @import "blocks/article";
 @import "blocks/graphic-tooltip";
+@import "blocks/hystmodal";
+@import "blocks/modal";
