@@ -9,9 +9,6 @@ block vars
 block main
 	article.article
 		.article__window
-			//.graphic-tooltip
-			.article__close
-				+icon("close")(width="40", height="40")
 			ul.graphic-menu
 				li.active(data-menuanchor="page1")
 					a(href="#page1")
@@ -59,6 +56,12 @@ block main
 							span Предсказаниe пандемий
 			#pagepiling
 				#page1.graphic.graphic--bg.pp-scrollable(style="background-image: url(\"./images/graphic-bg.jpg\")")
+					.graphic__main-title
+						span Топ-10 сфер применения квантовых компьютеров
+						br
+						+icon('cursor-click')
+						span.graphic__small-text кликните, чтобы выбрать
+						+icon('cursor-click')
 					svg.graphic__icon(xmlns='http://www.w3.org/2000/svg' viewbox='0 0 2409.1 1612.5')
 						path(fill='#B0FFFF' d='M1898.5,1350.8c-0.4,25.7-21.2,46.5-47,46.8l-1256.3,13.5c-26.2,0.3-47.7-20.8-48-47c0-0.4,0-0.8,0-1.2\
 						c0.4-25.7,21.2-46.5,47-46.8l1256.3-13.5c26.2-0.3,47.7,20.8,48,47C1898.5,1350,1898.5,1350.4,1898.5,1350.8z')
@@ -164,6 +167,12 @@ block main
 							text(x='1889' y='239' fill='#FFFFFF' font-size='50' font-family='Montserrat, sans-serif' text-anchor='middle' dominant-baseline='central')
 								tspan(x='1889' dy='-0.4em') Транспорт,
 								tspan(x='1889' dy='1.2em') логистика
+					.graphic__annonce.
+						Долгое время квантовые вычисления оставались красивой теорией из научно-популярных журналов и закрытых
+						лабораторий. Но прямо сейчас, в 2026 году, мы наблюдаем тектонический сдвиг: технологии вышли на коммерческий
+						рынок. Сегодня гибридные квантовые процессоры и нейросети уже гоняют реальные деньги по «невзламываемым» сетям,
+						проектируют лекарства от рака и спасают мегаполисы от пробок. Классические суперкомпьютеры стремительно
+						проигрывают эту битву за скорость. Разбираем 10 главных сфер, где квантовая революция уже изменила нашу жизнь.
 					.graphic__note
 						+icon("cursor-scroll")(width="50", height="50")
 				#page2.graphic.pp-scrollable.desc.desc--4.anim-opacity(data-tab="tab-1")

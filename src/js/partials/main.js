@@ -1,14 +1,16 @@
 document.addEventListener("DOMContentLoaded", () => {
-	const body = document.body;
 	const myModal = new HystModal({
 		linkAttributeName: "data-hystmodal"
 	});
+
+	// Массив для хранения активных таймеров анимации
+	let animationTimeouts = [];
 
 	$("#pagepiling").pagepiling({
 		sectionSelector: ".graphic",
 		direction: "vertical",
 		sectionsColor: [
-			"#000000",
+			"transparent",
 			"#403f4d",
 			"#403f4d",
 			"#403f4d",
@@ -24,14 +26,15 @@ document.addEventListener("DOMContentLoaded", () => {
 		anchors: ["page1", "page2", "page3", "page4", "page5", "page6", "page7", "page8", "page9", "page10", "page11"],
 		menu: ".graphic-menu",
 		afterRender: function() {
-			/* Удалить якорь из урла */
-			const hash = location.hash.replace("#","");
+			// После инициализации показываем страницу
+			document.getElementById("pagepiling").classList.add("pp-initialized");
 
-			if(hash != "") {
-				location.hash = "";
+			// Удалить якорь из урла
+			if (location.hash !== "") {
+				history.replaceState(null, null, window.location.pathname + window.location.search);
 			}
 
-			/* Клик по атомам в оглавлении */
+			// Клик по атомам в оглавлении
 			const topAnchors = document.querySelectorAll("[data-anchortop]");
 
 			topAnchors.forEach(el => {
@@ -40,41 +43,12 @@ document.addEventListener("DOMContentLoaded", () => {
 				});
 			});
 
-			/* Открытие инфографики */
-			const graphicPreview = document.querySelector(".article__preview");
-			const graphic = document.querySelector(".article__window");
-			const closeButton = document.querySelector(".article__close");
-
-			if (graphicPreview) {
-				graphicPreview.addEventListener("click", () => {
-					graphic.classList.add("open");
-					body.style.overflow = "hidden";
-
-					/* Анимация мигания атомов при открытии */
-					topAnchors.forEach((el, index) => {
-						setTimeout(() => {
-							el.style.animation = "blinkOpacity 0.6s ease";
-						}, index * 100);
-					});
-				});
-			}
-
-			if (closeButton) {
-				closeButton.addEventListener("click", () => {
-					graphic.classList.remove("open");
-					body.style.overflow = "auto";
-
-					/* После закрытия перемещаем на первый блок */
-					setTimeout(() => {
-						$.fn.pagepiling.moveTo(1);
-					}, 400);
-
-					/* Убрать анимацию мигания атомов */
-					topAnchors.forEach(el => {
-						el.style.animation = "none";
-					});
-				});
-			}
+			// Анимация мигания атомов при открытии
+			topAnchors.forEach((el, index) => {
+				setTimeout(() => {
+					el.style.animation = "blinkOpacity 0.6s ease";
+				}, index * 100);
+			});
 		},
 		afterLoad: function(anchorLink, index) {
 			const activeSection = document.querySelector(".graphic.active");
@@ -91,7 +65,7 @@ document.addEventListener("DOMContentLoaded", () => {
 			tabContent.forEach(el => {
 				el.style.opacity = "0";
 			});
-			
+
 			activeTabText.forEach((el, i) => {
 				setTimeout(() => {
 					el.style.opacity = "1";

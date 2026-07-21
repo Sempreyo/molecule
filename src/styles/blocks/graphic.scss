@@ -96,6 +96,15 @@
 		}
 	}
 
+	&__annonce {
+		position: relative;
+		font-family: $openSansFont;
+		color: $white;
+		font-size: 18px;
+		text-align: center;
+		padding: 40px 0 60px;
+	}
+
 	&__note {
 		position: absolute;
 		left: 50%;
