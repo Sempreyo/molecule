@@ -1,16 +1,34 @@
-.modal {
+.modal-more {
 	padding: 30px 70px 50px 30px;
 
 	@include max(ti) {
 		padding: 60px 20px 50px;
 	}
 
-	&__content {
+	&__title {
 		color: $white;
+		font-weight: 700;
+		font-size: 32px;
+		margin-bottom: 30px;
 
+
+		@include max(ti) {
+			font-size: 26px;
+			margin-bottom: 20px;
+		}
+	}
+
+	&__content {
 		b {
+			color: $white;
+			font-size: 16px;
+			line-height: 1.2;
 			display: block;
 			margin-bottom: 5px;
+
+			@include max(ti) {
+				font-size: 14px;
+			}
 		}
 
 		a {
@@ -23,9 +41,99 @@
 			}
 		}
 
+		ul {
+			li {
+				position: relative;
+				padding-left: 20px;
+				color: $white;
+				font-size: 16px;
+				line-height: 1.2;
+
+				@include max(ti) {
+					padding-left: 15px;
+					font-size: 14px;
+				}
+
+				&::before {
+					position: absolute;
+					top: 7px;
+					left: 0;
+					content: "";
+					display: block;
+					width: 5px;
+					height: 5px;
+					border-radius: 50%;
+					background-color: $white;
+				}
+
+				b {
+					display: unset;
+					margin-bottom: unset;
+				}
+
+				& + li {
+					margin-top: 30px;
+
+					@include max(ti) {
+						margin-bottom: 15px;
+					}
+				}
+			}
+
+			& + blockquote {
+				position: relative;
+				margin-top: 30px;
+				color: $white;
+				font-size: 14px;
+				padding-left: 20px;
+
+				@include max(ti) {
+					padding-left: 15px;
+					margin-bottom: 15px;
+					font-size: 12px;
+				}
+
+				&::before {
+					position: absolute;
+					top: 0;
+					left: 0;
+					content: "";
+					display: block;
+					width: 3px;
+					height: 100%;
+					background-color: $white;
+				}
+
+				b {
+					display: unset;
+					margin-bottom: unset;
+				}
+			}
+		}
+
 		p {
+			color: $white;
+			font-size: 16px;
+			line-height: 1.2;
+
+			@include max(ti) {
+				font-size: 14px;
+			}
+
 			& + p {
 				margin-top: 30px;
+
+				@include max(ti) {
+					margin-bottom: 15px;
+				}
+			}
+
+			& + ul {
+				margin-top: 30px;
+
+				@include max(ti) {
+					margin-bottom: 15px;
+				}
 			}
 		}
 	}

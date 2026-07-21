@@ -11,490 +11,533 @@
   <body>
     <main class="main">
       <article class="article">
-        <div class="article__container">
-          <div class="article__title">Топ-10 сфер применения квантовых компьютеров</div>
-          <div class="article__anounce">
-            Квантовые компьютеры (КК) пока не нашли широкого применения из-за своей сложности и дороговизны. 
-            Однако, уже есть примеры, когда они решают различные практические задачи. В перспективе КК смогут использоваться в самых разных областях.
-          </div>
-          <div class="article__preview">
-            <div class="article__click-me">
-              <svg width="40" height="40">
-                <use xlink:href="./images/sprite.svg#cursor-click"></use>
-              </svg><span>Узнать больше</span>
-            </div>
-            <div class="article__preview-image"><img src="./images/graphic-bg.jpg" alt=""></div>
-            <svg class="article__molecule">
-              <use xlink:href="./images/sprite.svg#molecule"></use>
+        <div class="article__window">
+          <!--.graphic-tooltip-->
+          <div class="article__close">
+            <svg width="40" height="40">
+              <use xlink:href="./images/sprite.svg#close"></use>
             </svg>
-            <div class="article__expand">
-              <svg width="40" height="40">
-                <use xlink:href="./images/sprite.svg#expand"></use>
-              </svg><span>Посмотреть подробнее</span>
-            </div>
           </div>
-          <div class="article__window">
-            <div class="graphic-tooltip"></div>
-            <div class="article__close">
-              <svg width="40" height="40">
-                <use xlink:href="./images/sprite.svg#close"></use>
+          <ul class="graphic-menu">
+            <li class="active" data-menuanchor="page1"><a href="#page1"><span class="graphic-menu__label"><span>Оглавление</span></span></a></li>
+            <li data-menuanchor="page2"><a href="#page2"><span class="graphic-menu__label"><span>Медицина</span></span></a></li>
+            <li data-menuanchor="page3"><a href="#page3"><span class="graphic-menu__label"><span>Криптография</span></span></a></li>
+            <li data-menuanchor="page4"><a href="#page4"><span class="graphic-menu__label"><span>Транспорт, логистика</span></span></a></li>
+            <li data-menuanchor="page5"><a href="#page5"><span class="graphic-menu__label"><span>Моделирование молекул</span></span></a></li>
+            <li data-menuanchor="page6"><a href="#page6"><span class="graphic-menu__label"><span>Финансы</span></span></a></li>
+            <li data-menuanchor="page7"><a href="#page7"><span class="graphic-menu__label"><span>Улучшение покрытия спутников</span></span></a></li>
+            <li data-menuanchor="page8"><a href="#page8"><span class="graphic-menu__label"><span>Более эффективная реклама</span></span></a></li>
+            <li data-menuanchor="page9"><a href="#page9"><span class="graphic-menu__label"><span>Искуственный интеллект</span></span></a></li>
+            <li data-menuanchor="page10"><a href="#page10"><span class="graphic-menu__label"><span>Прогноз погоды</span></span></a></li>
+            <li data-menuanchor="page11"><a href="#page11"><span class="graphic-menu__label"><span>Предсказаниe пандемий</span></span></a></li>
+          </ul>
+          <div id="pagepiling">
+            <div class="graphic graphic--bg pp-scrollable" id="page1" style="background-image: url(&quot;./images/graphic-bg.jpg&quot;)">
+              <svg class="graphic__icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 2409.1 1612.5">
+                <path fill="#B0FFFF" d="M1898.5,1350.8c-0.4,25.7-21.2,46.5-47,46.8l-1256.3,13.5c-26.2,0.3-47.7-20.8-48-47c0-0.4,0-0.8,0-1.2						c0.4-25.7,21.2-46.5,47-46.8l1256.3-13.5c26.2-0.3,47.7,20.8,48,47C1898.5,1350,1898.5,1350.4,1898.5,1350.8z"></path>
+                <g data-anchortop="9" data-tooltip="Искуственный интеллект">
+                  <circle fill="#314FFF" cx="558.7" cy="1377.8" r="233.9"></circle>
+                  <path fill="#3434E2" d="M371.6,1237.4c36.7-22.8,80.1-35.6,126.4-35c129.2,1.8,232.4,108,230.6,237.2c-0.7,51.5-18,98.9-46.8,137.1							c65.5-40.7,109.6-112.8,110.7-195.6c1.8-129.2-101.4-235.4-230.6-237.2C484.3,1142.8,414.9,1179.7,371.6,1237.4z"></path>
+                  <path opacity="0.27" fill="#FFFFFF" d="M472.5,1537.9c22,12.4,47.1,21.4,72.1,18.4c25.1-3.1,49.5-21,53.7-45.9c3.8-22.6-9.4-45.2-27.2-59.6							c-17.8-14.4-39.8-22.4-60.8-31.4c-21.1-9-42.3-19.9-56.3-38.1c-7.4-9.7-12.7-21.4-22.3-28.9c-11.5-8.9-28.4-10.2-41-3							c-33.5,19-13.7,74.4-1.3,101.1C406.6,1487.4,437.1,1517.9,472.5,1537.9z"></path>
+                  <text x="558.7" y="1377.8" fill="#FFFFFF" font-size="50" font-family="Montserrat, sans-serif" text-anchor="middle" dominant-baseline="central">
+                    <tspan x="558.7" dy="-0.4em">Искуственный</tspan>
+                    <tspan x="558.7" dy="1.2em">интеллект</tspan>
+                  </text>
+                </g>
+                <g data-anchortop="11" data-tooltip="Предсказаниe пандемий">
+                  <ellipse transform="matrix(0.7071 -0.7071 0.7071 0.7071 -412.3804 1704.1042)" fill="#3BE3FF" cx="1850.8" cy="1349.8" rx="233.9" ry="233.9"></ellipse>
+                  <path fill="#36D0FF" d="M1663.9,1209.7c36.7-22.8,80.1-35.6,126.4-35c129.2,1.8,232.4,108,230.6,237.2c-0.7,51.5-18,98.9-46.8,137.1							c65.5-40.7,109.6-112.8,110.7-195.6c1.8-129.2-101.4-235.4-230.6-237.2C1776.6,1115.1,1707.2,1152.1,1663.9,1209.7z"></path>
+                  <path fill="#FFFFFF" opacity="0.46" d="M1764.8,1510.2c22,12.4,47.1,21.4,72.1,18.4c25.1-3.1,49.5-21,53.7-45.9c3.8-22.6-9.4-45.2-27.2-59.6							c-17.8-14.4-39.8-22.4-60.8-31.4c-21.1-9-42.3-19.9-56.3-38.1c-7.4-9.7-12.7-21.4-22.3-28.9c-11.5-8.9-28.4-10.2-41-3							c-33.5,19-13.7,74.4-1.3,101.1C1698.9,1459.7,1729.4,1490.3,1764.8,1510.2z"></path>
+                  <text x="1850.8" y="1349.8" fill="#FFFFFF" font-size="50" font-family="Montserrat, sans-serif" text-anchor="middle" dominant-baseline="central">
+                    <tspan x="1850.8" dy="-0.4em">Предсказаниe</tspan>
+                    <tspan x="1850.8" dy="1.2em">пандемий</tspan>
+                  </text>
+                </g>
+                <g data-anchortop="10" data-tooltip="Прогноз погоды">
+                  <circle fill="#B25AFF" cx="1205" cy="1372.1" r="233.9"></circle>
+                  <path fill="#9145DB" d="M1017.9,1231.7c36.7-22.8,80.1-35.6,126.4-35c129.2,1.8,232.4,108,230.6,237.2c-0.7,51.5-18,98.9-46.8,137.1							c65.5-40.7,109.6-112.8,110.7-195.6c1.8-129.2-101.4-235.4-230.6-237.2C1130.6,1137.1,1061.2,1174.1,1017.9,1231.7z"></path>
+                  <path fill="#FFFFFF" opacity="0.27" d="M1118.8,1532.2c22,12.4,47.1,21.4,72.1,18.4c25-3.1,49.5-21,53.7-45.9c3.8-22.6-9.4-45.2-27.2-59.6							c-17.8-14.4-39.8-22.4-60.8-31.4c-21.1-9-42.3-19.9-56.3-38.1c-7.4-9.7-12.7-21.4-22.3-28.9c-11.5-8.9-28.4-10.2-41-3							c-33.5,19-13.7,74.4-1.3,101.1C1052.9,1481.7,1083.4,1512.3,1118.8,1532.2z"></path>
+                  <text x="1205" y="1372.1" fill="#FFFFFF" font-size="50" font-family="Montserrat, sans-serif" text-anchor="middle" dominant-baseline="central">
+                    <tspan x="1205" dy="-0.4em">Прогноз</tspan>
+                    <tspan x="1205" dy="1.2em">погоды</tspan>
+                  </text>
+                </g>
+                <path fill="#B0FFFF" d="M1899.7,254.7c-0.4,25.7-21.2,46.5-47,46.8L596.5,315c-26.2,0.3-47.7-20.8-48-47c0-0.4,0-0.8,0-1.2						c0.4-25.7,21.2-46.5,47-46.8l1256.3-13.5c26.2-0.3,47.7,20.8,48,47C1899.7,253.9,1899.7,254.3,1899.7,254.7z"></path>
+                <g data-anchortop="2" data-tooltip="Медицина">
+                  <circle fill="#3BE3FF" cx="596" cy="267.5" r="233.9"></circle>
+                  <path fill="#36D0FF" d="M408.9,127.1c36.7-22.8,80.1-35.6,126.4-35c129.2,1.8,232.4,108,230.6,237.2c-0.7,51.5-18,98.9-46.8,137.1							c65.5-40.7,109.6-112.8,110.7-195.6c1.8-129.2-101.4-235.4-230.6-237.2C521.6,32.5,452.2,69.4,408.9,127.1z"></path>
+                  <path fill="#FFFFFF" opacity="0.46" d="M509.8,427.6c22,12.4,47.1,21.4,72.1,18.4c25.1-3.1,49.5-21,53.7-45.9c3.8-22.6-9.4-45.2-27.2-59.6							C590.6,326,568.6,318,547.6,309s-42.3-19.9-56.3-38.1c-7.4-9.7-12.7-21.4-22.3-28.9c-11.5-8.9-28.4-10.2-41-3							c-33.5,19-13.7,74.4-1.3,101.1C443.9,377.1,474.4,407.7,509.8,427.6z"></path>
+                  <text x="596" y="267.5" fill="#FFFFFF" font-size="50" font-family="Montserrat, sans-serif" text-anchor="middle" dominant-baseline="central">Медицина</text>
+                </g>
+                <path fill="#B0FFFF" d="M897.5,804.2c-0.4,26.2-21.9,47.2-48.2,46.8l-610.3-8.5c-26.2-0.4-47.2-21.9-46.8-48.2						c0.4-26.2,21.9-47.2,48.2-46.8l610.3,8.5C876.9,756.5,897.9,778,897.5,804.2z"></path>
+                <g data-anchortop="5" data-tooltip="Моделирование молекул">
+                  <circle fill="#3BE3FF" cx="239.7" cy="795" r="233.9"></circle>
+                  <path fill="#36D0FF" d="M52.6,654.7c36.7-22.8,80.1-35.6,126.4-35c129.2,1.8,232.4,108,230.6,237.2c-0.7,51.5-18,98.9-46.8,137.1							c65.5-40.7,109.6-112.8,110.7-195.6C475.4,669.1,372.2,563,243,561.2C165.3,560.1,96,597,52.6,654.7z"></path>
+                  <path fill="#FFFFFF" opacity="0.46" d="M153.6,955.1c22,12.4,47.1,21.4,72.1,18.4c25.1-3.1,49.5-21,53.7-45.9c3.9-22.6-9.4-45.2-27.2-59.6							c-17.8-14.4-39.8-22.4-60.8-31.4c-21.1-9-42.3-19.9-56.3-38.1c-7.4-9.7-12.7-21.4-22.3-28.9c-11.5-8.9-28.4-10.2-41-3							c-33.5,19-13.7,74.4-1.3,101.1C87.7,904.7,118.2,935.2,153.6,955.1z"></path>
+                  <text x="239.7" y="795" fill="#FFFFFF" font-size="50" font-family="Montserrat, sans-serif" text-anchor="middle" dominant-baseline="central">
+                    <tspan x="239.7" dy="-0.4em">Моделирование</tspan>
+                    <tspan x="239.7" dy="1.2em">молекул</tspan>
+                  </text>
+                </g>
+                <g data-anchortop="6" data-tooltip="Финансы">
+                  <circle fill="#B25AFF" cx="850" cy="803.6" r="233.9"></circle>
+                  <path fill="#9145DB" d="M662.9,663.2c36.7-22.8,80.1-35.6,126.4-35c129.2,1.8,232.4,108,230.6,237.2c-0.7,51.5-18,98.9-46.8,137.1							c65.5-40.7,109.6-112.8,110.7-195.6c1.8-129.2-101.4-235.4-230.6-237.2C775.6,568.6,706.3,605.5,662.9,663.2z"></path>
+                  <path fill="#FFFFFF" opacity="0.27" d="M763.9,963.7c22,12.4,47.1,21.4,72.1,18.4c25-3.1,49.5-21,53.7-45.9c3.8-22.6-9.4-45.2-27.2-59.6							c-17.8-14.4-39.8-22.4-60.8-31.4c-21.1-9-42.3-19.9-56.3-38.1c-7.4-9.7-12.7-21.4-22.3-28.9c-11.5-8.9-28.4-10.2-41-3							c-33.5,19-13.7,74.4-1.3,101.1C697.9,913.2,728.5,943.7,763.9,963.7z"></path>
+                  <text x="850" y="803.6" fill="#FFFFFF" font-size="50" font-family="Montserrat, sans-serif" text-anchor="middle" dominant-baseline="central">Финансы</text>
+                </g>
+                <path fill="#B0FFFF" d="M2219.4,822.7c-0.4,26.2-21.9,47.2-48.2,46.8L1561,861c-26.2-0.4-47.2-21.9-46.8-48.2						c0.4-26.2,21.9-47.2,48.2-46.8l610.3,8.5C2198.8,775,2219.8,796.5,2219.4,822.7z"></path>
+                <g data-anchortop="7" data-tooltip="Улучшение покрытия спутников">
+                  <circle fill="#3BE3FF" cx="1561.7" cy="813.5" r="233.9"></circle>
+                  <path fill="#36D0FF" d="M1374.5,673.2c36.7-22.8,80.1-35.6,126.4-35c129.2,1.8,232.4,108,230.6,237.2c-0.7,51.5-18,98.9-46.8,137.1							c65.5-40.7,109.6-112.8,110.7-195.6c1.8-129.2-101.4-235.4-230.6-237.2C1487.2,578.6,1417.9,615.5,1374.5,673.2z"></path>
+                  <path fill="#FFFFFF" opacity="0.46" d="M1475.5,973.6c22,12.4,47.1,21.4,72.1,18.4c25.1-3.1,49.5-21,53.7-45.9c3.8-22.6-9.4-45.2-27.2-59.6							c-17.8-14.4-39.8-22.4-60.8-31.4c-21.1-9-42.3-19.9-56.3-38.1c-7.4-9.7-12.7-21.4-22.3-28.9c-11.5-8.9-28.4-10.2-41-3							c-33.5,19-13.7,74.4-1.3,101.1C1409.6,923.2,1440.1,953.7,1475.5,973.6z"></path>
+                  <text x="1561.7" y="813.5" fill="#FFFFFF" font-size="50" font-family="Montserrat, sans-serif" text-anchor="middle" dominant-baseline="central">
+                    <tspan x="1561.7" dy="-1em">Улучшение</tspan>
+                    <tspan x="1561.7" dy="1.2em">покрытия</tspan>
+                    <tspan x="1561.7" dy="1.2em">спутников</tspan>
+                  </text>
+                </g>
+                <g data-anchortop="8" data-tooltip="Более эффективная реклама">
+                  <circle fill="#B25AFF" cx="2171.9" cy="822.1" r="233.9"></circle>
+                  <path fill="#9145DB" d="M1984.8,681.7c36.7-22.8,80.1-35.6,126.4-35c129.2,1.8,232.4,108,230.6,237.2c-0.7,51.5-18,98.9-46.8,137.1							c65.5-40.7,109.6-112.8,110.7-195.6c1.8-129.2-101.4-235.4-230.6-237.2C2097.5,587.1,2028.2,624,1984.8,681.7z"></path>
+                  <path fill="#FFFFFF" opacity="0.27" d="M2085.8,982.2c22,12.4,47.1,21.4,72.1,18.4c25-3.1,49.5-21,53.7-45.9c3.8-22.6-9.4-45.2-27.2-59.6							c-17.8-14.4-39.8-22.4-60.8-31.4c-21.1-9-42.3-19.9-56.3-38.1c-7.4-9.7-12.7-21.4-22.3-28.9c-11.5-8.9-28.4-10.2-41-3							c-33.5,19-13.7,74.4-1.3,101.1C2019.9,931.7,2050.4,962.2,2085.8,982.2z"></path>
+                  <text x="2171.9" y="822.1" fill="#FFFFFF" font-size="50" font-family="Montserrat, sans-serif" text-anchor="middle" dominant-baseline="central">
+                    <tspan x="2171.9" dy="-1em">Более</tspan>
+                    <tspan x="2171.9" dy="1.2em">эффективная</tspan>
+                    <tspan x="2171.9" dy="1.2em">реклама</tspan>
+                  </text>
+                </g>
+                <g data-anchortop="3" data-tooltip="Криптография">
+                  <circle fill="#FF8B17" cx="1201.7" cy="260.5" r="233.9"></circle>
+                  <path fill="#FF7610" d="M1014.6,120.1c36.7-22.8,80.1-35.6,126.4-35c129.2,1.8,232.4,108,230.6,237.2c-0.7,51.5-18,98.9-46.8,137.1							c65.5-40.7,109.6-112.8,110.7-195.6c1.8-129.2-101.4-235.4-230.6-237.2C1127.3,25.5,1057.9,62.4,1014.6,120.1z"></path>
+                  <path fill="#FFFFFF" opacity="0.27" d="M1115.5,420.5c22,12.4,47.1,21.4,72.1,18.4c25-3.1,49.5-21,53.7-45.9c3.8-22.6-9.4-45.2-27.2-59.6							c-17.8-14.4-39.8-22.4-60.8-31.4c-21.1-9-42.3-19.9-56.3-38.1c-7.4-9.7-12.7-21.4-22.3-28.9c-11.5-8.9-28.4-10.2-41-3							c-33.5,19-13.7,74.4-1.3,101.1C1049.6,370.1,1080.1,400.6,1115.5,420.5z"></path>
+                  <text x="1201.7" y="260.5" fill="#FFFFFF" font-size="50" font-family="Montserrat, sans-serif" text-anchor="middle" dominant-baseline="central">Криптография</text>
+                </g>
+                <g data-anchortop="4" data-tooltip="Транспорт, логистика">
+                  <circle fill="#314FFF" cx="1889" cy="239" r="233.9"></circle>
+                  <path fill="#3434E2" d="M1701.9,98.7c36.7-22.8,80.1-35.6,126.4-35c129.2,1.8,232.4,108,230.6,237.2c-0.7,51.5-18,98.9-46.8,137.1							c65.5-40.7,109.6-112.8,110.7-195.6c1.8-129.2-101.4-235.4-230.6-237.2C1814.6,4.1,1745.2,41,1701.9,98.7z"></path>
+                  <path fill="#FFFFFF" opacity="0.27" d="M1802.8,399.1c22,12.4,47.1,21.4,72.1,18.4c25.1-3.1,49.5-21,53.7-45.9c3.8-22.6-9.4-45.2-27.2-59.6							c-17.8-14.4-39.8-22.4-60.8-31.4c-21.1-9-42.3-19.9-56.3-38.1c-7.4-9.7-12.7-21.4-22.3-28.9c-11.5-8.9-28.4-10.2-41-3							c-33.5,19-13.7,74.4-1.3,101.1C1736.9,348.6,1767.4,379.2,1802.8,399.1z"></path>
+                  <text x="1889" y="239" fill="#FFFFFF" font-size="50" font-family="Montserrat, sans-serif" text-anchor="middle" dominant-baseline="central">
+                    <tspan x="1889" dy="-0.4em">Транспорт,</tspan>
+                    <tspan x="1889" dy="1.2em">логистика</tspan>
+                  </text>
+                </g>
               </svg>
-            </div>
-            <ul class="graphic-menu">
-              <li class="active" data-menuanchor="page1"><a href="#page1"><span class="graphic-menu__label"><span>Оглавление</span></span></a></li>
-              <li data-menuanchor="page2"><a href="#page2"><span class="graphic-menu__label"><span>Медицина</span></span></a></li>
-              <li data-menuanchor="page3"><a href="#page3"><span class="graphic-menu__label"><span>Криптография</span></span></a></li>
-              <li data-menuanchor="page4"><a href="#page4"><span class="graphic-menu__label"><span>Транспорт, логистика</span></span></a></li>
-              <li data-menuanchor="page5"><a href="#page5"><span class="graphic-menu__label"><span>Моделирование молекул</span></span></a></li>
-              <li data-menuanchor="page6"><a href="#page6"><span class="graphic-menu__label"><span>Финансы</span></span></a></li>
-              <li data-menuanchor="page7"><a href="#page7"><span class="graphic-menu__label"><span>Улучшение покрытия спутников</span></span></a></li>
-              <li data-menuanchor="page8"><a href="#page8"><span class="graphic-menu__label"><span>Более эффективная реклама</span></span></a></li>
-              <li data-menuanchor="page9"><a href="#page9"><span class="graphic-menu__label"><span>Искуственный интеллект</span></span></a></li>
-              <li data-menuanchor="page10"><a href="#page10"><span class="graphic-menu__label"><span>Прогноз погоды</span></span></a></li>
-              <li data-menuanchor="page11"><a href="#page11"><span class="graphic-menu__label"><span>Предсказаниe пандемий</span></span></a></li>
-            </ul>
-            <div id="pagepiling">
-              <div class="graphic graphic--bg pp-scrollable" id="page1" style="background-image: url(&quot;./images/graphic-bg.jpg&quot;)">
-                <svg class="graphic__icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 2409.1 1612.5">
-                  <path fill="#B0FFFF" d="M1898.5,1350.8c-0.4,25.7-21.2,46.5-47,46.8l-1256.3,13.5c-26.2,0.3-47.7-20.8-48-47c0-0.4,0-0.8,0-1.2							c0.4-25.7,21.2-46.5,47-46.8l1256.3-13.5c26.2-0.3,47.7,20.8,48,47C1898.5,1350,1898.5,1350.4,1898.5,1350.8z"></path>
-                  <g data-anchortop="9" data-tooltip="Искуственный интеллект">
-                    <circle fill="#314FFF" cx="558.7" cy="1377.8" r="233.9"></circle>
-                    <path fill="#3434E2" d="M371.6,1237.4c36.7-22.8,80.1-35.6,126.4-35c129.2,1.8,232.4,108,230.6,237.2c-0.7,51.5-18,98.9-46.8,137.1								c65.5-40.7,109.6-112.8,110.7-195.6c1.8-129.2-101.4-235.4-230.6-237.2C484.3,1142.8,414.9,1179.7,371.6,1237.4z"></path>
-                    <path opacity="0.27" fill="#FFFFFF" d="M472.5,1537.9c22,12.4,47.1,21.4,72.1,18.4c25.1-3.1,49.5-21,53.7-45.9c3.8-22.6-9.4-45.2-27.2-59.6								c-17.8-14.4-39.8-22.4-60.8-31.4c-21.1-9-42.3-19.9-56.3-38.1c-7.4-9.7-12.7-21.4-22.3-28.9c-11.5-8.9-28.4-10.2-41-3								c-33.5,19-13.7,74.4-1.3,101.1C406.6,1487.4,437.1,1517.9,472.5,1537.9z"></path>
-                  </g>
-                  <g data-anchortop="11" data-tooltip="Предсказаниe пандемий">
-                    <ellipse transform="matrix(0.7071 -0.7071 0.7071 0.7071 -412.3804 1704.1042)" fill="#3BE3FF" cx="1850.8" cy="1349.8" rx="233.9" ry="233.9"></ellipse>
-                    <path fill="#36D0FF" d="M1663.9,1209.7c36.7-22.8,80.1-35.6,126.4-35c129.2,1.8,232.4,108,230.6,237.2c-0.7,51.5-18,98.9-46.8,137.1								c65.5-40.7,109.6-112.8,110.7-195.6c1.8-129.2-101.4-235.4-230.6-237.2C1776.6,1115.1,1707.2,1152.1,1663.9,1209.7z"></path>
-                    <path fill="#FFFFFF" opacity="0.46" d="M1764.8,1510.2c22,12.4,47.1,21.4,72.1,18.4c25.1-3.1,49.5-21,53.7-45.9c3.8-22.6-9.4-45.2-27.2-59.6								c-17.8-14.4-39.8-22.4-60.8-31.4c-21.1-9-42.3-19.9-56.3-38.1c-7.4-9.7-12.7-21.4-22.3-28.9c-11.5-8.9-28.4-10.2-41-3								c-33.5,19-13.7,74.4-1.3,101.1C1698.9,1459.7,1729.4,1490.3,1764.8,1510.2z"></path>
-                  </g>
-                  <g data-anchortop="10" data-tooltip="Прогноз погоды">
-                    <circle fill="#B25AFF" cx="1205" cy="1372.1" r="233.9"></circle>
-                    <path fill="#9145DB" d="M1017.9,1231.7c36.7-22.8,80.1-35.6,126.4-35c129.2,1.8,232.4,108,230.6,237.2c-0.7,51.5-18,98.9-46.8,137.1								c65.5-40.7,109.6-112.8,110.7-195.6c1.8-129.2-101.4-235.4-230.6-237.2C1130.6,1137.1,1061.2,1174.1,1017.9,1231.7z"></path>
-                    <path fill="#FFFFFF" opacity="0.27" d="M1118.8,1532.2c22,12.4,47.1,21.4,72.1,18.4c25-3.1,49.5-21,53.7-45.9c3.8-22.6-9.4-45.2-27.2-59.6								c-17.8-14.4-39.8-22.4-60.8-31.4c-21.1-9-42.3-19.9-56.3-38.1c-7.4-9.7-12.7-21.4-22.3-28.9c-11.5-8.9-28.4-10.2-41-3								c-33.5,19-13.7,74.4-1.3,101.1C1052.9,1481.7,1083.4,1512.3,1118.8,1532.2z"></path>
-                  </g>
-                  <path fill="#B0FFFF" d="M1899.7,254.7c-0.4,25.7-21.2,46.5-47,46.8L596.5,315c-26.2,0.3-47.7-20.8-48-47c0-0.4,0-0.8,0-1.2							c0.4-25.7,21.2-46.5,47-46.8l1256.3-13.5c26.2-0.3,47.7,20.8,48,47C1899.7,253.9,1899.7,254.3,1899.7,254.7z"></path>
-                  <g data-anchortop="2" data-tooltip="Медицина">
-                    <circle fill="#3BE3FF" cx="596" cy="267.5" r="233.9"></circle>
-                    <path fill="#36D0FF" d="M408.9,127.1c36.7-22.8,80.1-35.6,126.4-35c129.2,1.8,232.4,108,230.6,237.2c-0.7,51.5-18,98.9-46.8,137.1								c65.5-40.7,109.6-112.8,110.7-195.6c1.8-129.2-101.4-235.4-230.6-237.2C521.6,32.5,452.2,69.4,408.9,127.1z"></path>
-                    <path fill="#FFFFFF" opacity="0.46" d="M509.8,427.6c22,12.4,47.1,21.4,72.1,18.4c25.1-3.1,49.5-21,53.7-45.9c3.8-22.6-9.4-45.2-27.2-59.6								C590.6,326,568.6,318,547.6,309s-42.3-19.9-56.3-38.1c-7.4-9.7-12.7-21.4-22.3-28.9c-11.5-8.9-28.4-10.2-41-3								c-33.5,19-13.7,74.4-1.3,101.1C443.9,377.1,474.4,407.7,509.8,427.6z"></path>
-                  </g>
-                  <path fill="#B0FFFF" d="M897.5,804.2c-0.4,26.2-21.9,47.2-48.2,46.8l-610.3-8.5c-26.2-0.4-47.2-21.9-46.8-48.2							c0.4-26.2,21.9-47.2,48.2-46.8l610.3,8.5C876.9,756.5,897.9,778,897.5,804.2z"></path>
-                  <g data-anchortop="5" data-tooltip="Моделирование молекул">
-                    <circle fill="#3BE3FF" cx="239.7" cy="795" r="233.9"></circle>
-                    <path fill="#36D0FF" d="M52.6,654.7c36.7-22.8,80.1-35.6,126.4-35c129.2,1.8,232.4,108,230.6,237.2c-0.7,51.5-18,98.9-46.8,137.1								c65.5-40.7,109.6-112.8,110.7-195.6C475.4,669.1,372.2,563,243,561.2C165.3,560.1,96,597,52.6,654.7z"></path>
-                    <path fill="#FFFFFF" opacity="0.46" d="M153.6,955.1c22,12.4,47.1,21.4,72.1,18.4c25.1-3.1,49.5-21,53.7-45.9c3.9-22.6-9.4-45.2-27.2-59.6								c-17.8-14.4-39.8-22.4-60.8-31.4c-21.1-9-42.3-19.9-56.3-38.1c-7.4-9.7-12.7-21.4-22.3-28.9c-11.5-8.9-28.4-10.2-41-3								c-33.5,19-13.7,74.4-1.3,101.1C87.7,904.7,118.2,935.2,153.6,955.1z"></path>
-                  </g>
-                  <g data-anchortop="6" data-tooltip="Финансы">
-                    <circle fill="#B25AFF" cx="850" cy="803.6" r="233.9"></circle>
-                    <path fill="#9145DB" d="M662.9,663.2c36.7-22.8,80.1-35.6,126.4-35c129.2,1.8,232.4,108,230.6,237.2c-0.7,51.5-18,98.9-46.8,137.1								c65.5-40.7,109.6-112.8,110.7-195.6c1.8-129.2-101.4-235.4-230.6-237.2C775.6,568.6,706.3,605.5,662.9,663.2z"></path>
-                    <path fill="#FFFFFF" opacity="0.27" d="M763.9,963.7c22,12.4,47.1,21.4,72.1,18.4c25-3.1,49.5-21,53.7-45.9c3.8-22.6-9.4-45.2-27.2-59.6								c-17.8-14.4-39.8-22.4-60.8-31.4c-21.1-9-42.3-19.9-56.3-38.1c-7.4-9.7-12.7-21.4-22.3-28.9c-11.5-8.9-28.4-10.2-41-3								c-33.5,19-13.7,74.4-1.3,101.1C697.9,913.2,728.5,943.7,763.9,963.7z"></path>
-                  </g>
-                  <path fill="#B0FFFF" d="M2219.4,822.7c-0.4,26.2-21.9,47.2-48.2,46.8L1561,861c-26.2-0.4-47.2-21.9-46.8-48.2							c0.4-26.2,21.9-47.2,48.2-46.8l610.3,8.5C2198.8,775,2219.8,796.5,2219.4,822.7z"></path>
-                  <g data-anchortop="7" data-tooltip="Улучшение покрытия спутников">
-                    <circle fill="#3BE3FF" cx="1561.7" cy="813.5" r="233.9"></circle>
-                    <path fill="#36D0FF" d="M1374.5,673.2c36.7-22.8,80.1-35.6,126.4-35c129.2,1.8,232.4,108,230.6,237.2c-0.7,51.5-18,98.9-46.8,137.1								c65.5-40.7,109.6-112.8,110.7-195.6c1.8-129.2-101.4-235.4-230.6-237.2C1487.2,578.6,1417.9,615.5,1374.5,673.2z"></path>
-                    <path fill="#FFFFFF" opacity="0.46" d="M1475.5,973.6c22,12.4,47.1,21.4,72.1,18.4c25.1-3.1,49.5-21,53.7-45.9c3.8-22.6-9.4-45.2-27.2-59.6								c-17.8-14.4-39.8-22.4-60.8-31.4c-21.1-9-42.3-19.9-56.3-38.1c-7.4-9.7-12.7-21.4-22.3-28.9c-11.5-8.9-28.4-10.2-41-3								c-33.5,19-13.7,74.4-1.3,101.1C1409.6,923.2,1440.1,953.7,1475.5,973.6z"></path>
-                  </g>
-                  <g data-anchortop="8" data-tooltip="Более эффективная реклама">
-                    <circle fill="#B25AFF" cx="2171.9" cy="822.1" r="233.9"></circle>
-                    <path fill="#9145DB" d="M1984.8,681.7c36.7-22.8,80.1-35.6,126.4-35c129.2,1.8,232.4,108,230.6,237.2c-0.7,51.5-18,98.9-46.8,137.1								c65.5-40.7,109.6-112.8,110.7-195.6c1.8-129.2-101.4-235.4-230.6-237.2C2097.5,587.1,2028.2,624,1984.8,681.7z"></path>
-                    <path fill="#FFFFFF" opacity="0.27" d="M2085.8,982.2c22,12.4,47.1,21.4,72.1,18.4c25-3.1,49.5-21,53.7-45.9c3.8-22.6-9.4-45.2-27.2-59.6								c-17.8-14.4-39.8-22.4-60.8-31.4c-21.1-9-42.3-19.9-56.3-38.1c-7.4-9.7-12.7-21.4-22.3-28.9c-11.5-8.9-28.4-10.2-41-3								c-33.5,19-13.7,74.4-1.3,101.1C2019.9,931.7,2050.4,962.2,2085.8,982.2z"></path>
-                  </g>
-                  <g data-anchortop="3" data-tooltip="Криптография">
-                    <circle fill="#FF8B17" cx="1201.7" cy="260.5" r="233.9"></circle>
-                    <path fill="#FF7610" d="M1014.6,120.1c36.7-22.8,80.1-35.6,126.4-35c129.2,1.8,232.4,108,230.6,237.2c-0.7,51.5-18,98.9-46.8,137.1								c65.5-40.7,109.6-112.8,110.7-195.6c1.8-129.2-101.4-235.4-230.6-237.2C1127.3,25.5,1057.9,62.4,1014.6,120.1z"></path>
-                    <path fill="#FFFFFF" opacity="0.27" d="M1115.5,420.5c22,12.4,47.1,21.4,72.1,18.4c25-3.1,49.5-21,53.7-45.9c3.8-22.6-9.4-45.2-27.2-59.6								c-17.8-14.4-39.8-22.4-60.8-31.4c-21.1-9-42.3-19.9-56.3-38.1c-7.4-9.7-12.7-21.4-22.3-28.9c-11.5-8.9-28.4-10.2-41-3								c-33.5,19-13.7,74.4-1.3,101.1C1049.6,370.1,1080.1,400.6,1115.5,420.5z"></path>
-                  </g>
-                  <g data-anchortop="4" data-tooltip="Транспорт, логистика">
-                    <circle fill="#314FFF" cx="1889" cy="239" r="233.9"></circle>
-                    <path fill="#3434E2" d="M1701.9,98.7c36.7-22.8,80.1-35.6,126.4-35c129.2,1.8,232.4,108,230.6,237.2c-0.7,51.5-18,98.9-46.8,137.1								c65.5-40.7,109.6-112.8,110.7-195.6c1.8-129.2-101.4-235.4-230.6-237.2C1814.6,4.1,1745.2,41,1701.9,98.7z"></path>
-                    <path fill="#FFFFFF" opacity="0.27" d="M1802.8,399.1c22,12.4,47.1,21.4,72.1,18.4c25.1-3.1,49.5-21,53.7-45.9c3.8-22.6-9.4-45.2-27.2-59.6								c-17.8-14.4-39.8-22.4-60.8-31.4c-21.1-9-42.3-19.9-56.3-38.1c-7.4-9.7-12.7-21.4-22.3-28.9c-11.5-8.9-28.4-10.2-41-3								c-33.5,19-13.7,74.4-1.3,101.1C1736.9,348.6,1767.4,379.2,1802.8,399.1z"></path>
-                  </g>
+              <div class="graphic__note">
+                <svg width="50" height="50">
+                  <use xlink:href="./images/sprite.svg#cursor-scroll"></use>
                 </svg>
-                <div class="graphic__note">
-                  <svg width="50" height="50">
-                    <use xlink:href="./images/sprite.svg#cursor-scroll"></use>
-                  </svg>
+              </div>
+            </div>
+            <div class="graphic pp-scrollable desc desc--4 anim-opacity" id="page2" data-tab="tab-1">
+              <div class="desc__title">
+                <svg class="desc__logo">
+                  <use xlink:href="./images/sprite.svg#logo"></use>
+                </svg><span><span class="desc__title-num"><span>O</span>1</span><span class="desc__title-text" style="opacity: 1; transform: translateY(0)">Медицина</span></span>
+                <svg>
+                  <use xlink:href="./images/sprite.svg#slide-1"></use>
+                </svg>
+              </div>
+              <div class="desc__main">
+                <div class="desc__item">
+                  <div class="desc__image">
+                    <svg>
+                      <use xlink:href="./images/sprite.svg#slide-1-1"></use>
+                    </svg>
+                  </div>
+                  <div class="desc__text" style="opacity: 1; transform: translateY(0)">Создание и тестирование лекарств</div>
+                </div>
+                <div class="desc__item">
+                  <div class="desc__image">
+                    <svg>
+                      <use xlink:href="./images/sprite.svg#slide-1-2"></use>
+                    </svg>
+                  </div>
+                  <div class="desc__text" style="opacity: 1; transform: translateY(0)">Персонализированные лекарства</div>
+                </div>
+                <div class="desc__item">
+                  <div class="desc__image">
+                    <svg>
+                      <use xlink:href="./images/sprite.svg#slide-1-3"></use>
+                    </svg>
+                  </div>
+                  <div class="desc__text" style="opacity: 1; transform: translateY(0)">Диагностика заболеваний на раней стадии</div>
+                </div>
+                <div class="desc__item">
+                  <div class="desc__image">
+                    <svg>
+                      <use xlink:href="./images/sprite.svg#slide-1-4"></use>
+                    </svg>
+                  </div>
+                  <div class="desc__text" style="opacity: 1; transform: translateY(0)">Улучшенная визуализация КТ и МРТ снимков</div>
                 </div>
               </div>
-              <div class="graphic pp-scrollable desc desc--4 anim-opacity" id="page2" data-tab="tab-1">
-                <div class="desc__title"><span class="desc__title-num"><span>O</span>1</span><span class="desc__title-text" style="opacity: 1; transform: translateY(0)">Медицина</span>
-                  <svg>
-                    <use xlink:href="./images/sprite.svg#slide-1"></use>
-                  </svg>
+              <div class="desc__content">
+                <div class="desc__content-text">
+                  Создание вакцин нового поколения, индивидуальный подбор лечения рака и ювелирная точность МРТ-диагностики.
+                  Квантовые вычисления и искусственный интеллект совершают тихую революцию в медицине, превращая фантастику
+                  в медицинские протоколы. Где уже работают квантовые процессоры, как они спасают жизни реальных пациентов
+                  и почему классические суперкомпьютеры проигрывают эту битву за человеческое здоровье?
+                </div><a class="button button--1" href="#" data-hystmodal="#slide1">Подробнее</a>
+              </div>
+            </div>
+            <div class="graphic pp-scrollable desc desc--2" id="page3" data-tab="tab-2">
+              <div class="desc__title">
+                <svg class="desc__logo">
+                  <use xlink:href="./images/sprite.svg#logo"></use>
+                </svg><span><span class="desc__title-num"><span>O</span>2</span><span class="desc__title-text">Криптография</span></span>
+                <svg>
+                  <use xlink:href="./images/sprite.svg#slide-2"></use>
+                </svg>
+              </div>
+              <div class="desc__main">
+                <div class="desc__item">
+                  <div class="desc__image">
+                    <svg>
+                      <use xlink:href="./images/sprite.svg#slide-2-1"></use>
+                    </svg>
+                  </div>
+                  <div class="desc__text">Безопасная передача данных</div>
                 </div>
-                <div class="desc__main">
-                  <div class="desc__item">
-                    <div class="desc__image">
-                      <svg>
-                        <use xlink:href="./images/sprite.svg#slide-1-1"></use>
-                      </svg>
-                    </div>
-                    <div class="desc__text" style="opacity: 1; transform: translateY(0)">Создание и тестирование лекарств</div>
+                <div class="desc__item">
+                  <div class="desc__image">
+                    <svg>
+                      <use xlink:href="./images/sprite.svg#slide-2-2"></use>
+                    </svg>
                   </div>
-                  <div class="desc__item">
-                    <div class="desc__image">
-                      <svg>
-                        <use xlink:href="./images/sprite.svg#slide-1-2"></use>
-                      </svg>
-                    </div>
-                    <div class="desc__text" style="opacity: 1; transform: translateY(0)">Персонализированные лекарства</div>
-                  </div>
-                  <div class="desc__item">
-                    <div class="desc__image">
-                      <svg>
-                        <use xlink:href="./images/sprite.svg#slide-1-3"></use>
-                      </svg>
-                    </div>
-                    <div class="desc__text" style="opacity: 1; transform: translateY(0)">Диагностика заболеваний на раней стадии</div>
-                  </div>
-                  <div class="desc__item">
-                    <div class="desc__image">
-                      <svg>
-                        <use xlink:href="./images/sprite.svg#slide-1-4"></use>
-                      </svg>
-                    </div>
-                    <div class="desc__text" style="opacity: 1; transform: translateY(0)">Улучшенная визуализация КТ и МРТ снимков</div>
-                  </div>
-                </div>
-                <div class="desc__content">
-                  <div class="desc__content-text">
-                    Создание и тестирование лекарств, персонализированные лекарства, диагностика заболеваний на раней стадии, улучшенная визуализация КТ и МРТ снимков.
-                    Где уже внедрены такие технологии и над чем работают медицинские квантовые стартапы?
-                  </div><a class="button button--1" href="#" data-hystmodal="#slide1">Подробнее</a>
+                  <div class="desc__text">Попытка взлома будет обнаружена</div>
                 </div>
               </div>
-              <div class="graphic pp-scrollable desc desc--2" id="page3" data-tab="tab-2">
-                <div class="desc__title"><span class="desc__title-num"><span>O</span>2</span><span class="desc__title-text">Криптография</span>
-                  <svg>
-                    <use xlink:href="./images/sprite.svg#slide-2"></use>
-                  </svg>
-                </div>
-                <div class="desc__main">
-                  <div class="desc__item">
-                    <div class="desc__image">
-                      <svg>
-                        <use xlink:href="./images/sprite.svg#slide-2-1"></use>
-                      </svg>
-                    </div>
-                    <div class="desc__text">Безопасная передача данных</div>
+              <div class="desc__content">
+                <div class="desc__content-text">
+                  Любая попытка расшифровать сообщение, посланное по каналам квантовых коммуникаций, приведет к тому, что это сообщение изменится до неузнаваемости.
+                  Кванты — идеальный способ обмена банковской, врачебной и другой чувствительной информацией.
+                </div><a class="button button--2" href="#" data-hystmodal="#slide2">Подробнее</a>
+              </div>
+            </div>
+            <div class="graphic pp-scrollable desc desc--3" id="page4" data-tab="tab-3">
+              <div class="desc__title">
+                <svg class="desc__logo">
+                  <use xlink:href="./images/sprite.svg#logo"></use>
+                </svg><span><span class="desc__title-num"><span>O</span>3</span><span class="desc__title-text">Транспорт, логистика</span></span>
+                <svg>
+                  <use xlink:href="./images/sprite.svg#slide-3"></use>
+                </svg>
+              </div>
+              <div class="desc__main">
+                <div class="desc__item">
+                  <div class="desc__image">
+                    <svg>
+                      <use xlink:href="./images/sprite.svg#slide-3-1"></use>
+                    </svg>
                   </div>
-                  <div class="desc__item">
-                    <div class="desc__image">
-                      <svg>
-                        <use xlink:href="./images/sprite.svg#slide-2-2"></use>
-                      </svg>
-                    </div>
-                    <div class="desc__text">Попытка взлома будет обнаружена</div>
-                  </div>
+                  <div class="desc__text">Построение оптимальных маршрутов</div>
                 </div>
-                <div class="desc__content">
-                  <div class="desc__content-text">
-                    Любая попытка расшифровать сообщение, посланное по каналам квантовых коммуникаций, приведет к тому, что это сообщение изменится до неузнаваемости.
-                    Кванты — идеальный способ обмена банковской, врачебной и другой чувствительной информацией.
-                  </div><a class="button button--2" href="#" data-hystmodal="#slide2">Подробнее</a>
+                <div class="desc__item">
+                  <div class="desc__image">
+                    <svg>
+                      <use xlink:href="./images/sprite.svg#slide-3-2"></use>
+                    </svg>
+                  </div>
+                  <div class="desc__text">Формирование логистических цепочек</div>
+                </div>
+                <div class="desc__item">
+                  <div class="desc__image">
+                    <svg>
+                      <use xlink:href="./images/sprite.svg#slide-3-3"></use>
+                    </svg>
+                  </div>
+                  <div class="desc__text">Создание графиков и смен водителей, курьеров и т.д</div>
                 </div>
               </div>
-              <div class="graphic pp-scrollable desc desc--3" id="page4" data-tab="tab-3">
-                <div class="desc__title"><span class="desc__title-num"><span>O</span>3</span><span class="desc__title-text">Транспорт, логистика</span>
-                  <svg>
-                    <use xlink:href="./images/sprite.svg#slide-3"></use>
-                  </svg>
+              <div class="desc__content">
+                <div class="desc__content-text">
+                  Построить оптимальные маршруты для предприятий, где используется сотни единиц транспорта, учитывая множество разных факторов:
+                  от дорожной ситуации до состояния здоровья водителя, — это далеко не самая сложная задача для квантового компьютера.
+                </div><a class="button button--3" href="#" data-hystmodal="#slide3">Подробнее</a>
+              </div>
+            </div>
+            <div class="graphic pp-scrollable desc desc--3" id="page5" data-tab="tab-4">
+              <div class="desc__title">
+                <svg class="desc__logo">
+                  <use xlink:href="./images/sprite.svg#logo"></use>
+                </svg><span><span class="desc__title-num"><span>O</span>4</span><span class="desc__title-text">Моделирование молекул</span></span>
+                <svg>
+                  <use xlink:href="./images/sprite.svg#slide-4"></use>
+                </svg>
+              </div>
+              <div class="desc__main">
+                <div class="desc__item">
+                  <div class="desc__image">
+                    <svg>
+                      <use xlink:href="./images/sprite.svg#slide-4-1"></use>
+                    </svg>
+                  </div>
+                  <div class="desc__text">Поиск новых материалов</div>
                 </div>
-                <div class="desc__main">
-                  <div class="desc__item">
-                    <div class="desc__image">
-                      <svg>
-                        <use xlink:href="./images/sprite.svg#slide-3-1"></use>
-                      </svg>
-                    </div>
-                    <div class="desc__text">Построение оптимальных маршрутов</div>
+                <div class="desc__item">
+                  <div class="desc__image">
+                    <svg>
+                      <use xlink:href="./images/sprite.svg#slide-4-2"></use>
+                    </svg>
                   </div>
-                  <div class="desc__item">
-                    <div class="desc__image">
-                      <svg>
-                        <use xlink:href="./images/sprite.svg#slide-3-2"></use>
-                      </svg>
-                    </div>
-                    <div class="desc__text">Формирование логистических цепочек</div>
-                  </div>
-                  <div class="desc__item">
-                    <div class="desc__image">
-                      <svg>
-                        <use xlink:href="./images/sprite.svg#slide-3-3"></use>
-                      </svg>
-                    </div>
-                    <div class="desc__text">Создание графиков и смен водителей, курьеров и т.д</div>
-                  </div>
+                  <div class="desc__text">Изучение поведения веществ</div>
                 </div>
-                <div class="desc__content">
-                  <div class="desc__content-text">
-                    Построить оптимальные маршруты для предприятий, где используется сотни единиц транспорта, учитывая множество разных факторов:
-                    от дорожной ситуации до состояния здоровья водителя, — это далеко не самая сложная задача для квантового компьютера.
-                  </div><a class="button button--3" href="#" data-hystmodal="#slide3">Подробнее</a>
+                <div class="desc__item">
+                  <div class="desc__image">
+                    <svg>
+                      <use xlink:href="./images/sprite.svg#slide-4-3"></use>
+                    </svg>
+                  </div>
+                  <div class="desc__text">Замена дорогостоящим опытам</div>
                 </div>
               </div>
-              <div class="graphic pp-scrollable desc desc--3" id="page5" data-tab="tab-4">
-                <div class="desc__title"><span class="desc__title-num"><span>O</span>4</span><span class="desc__title-text">Моделирование молекул</span>
-                  <svg>
-                    <use xlink:href="./images/sprite.svg#slide-4"></use>
-                  </svg>
+              <div class="desc__content">
+                <div class="desc__content-text">
+                  Моделирование молекул это серьезная часть исследований при поиске новых материалов, изучении поведения веществ и их взаимодействия.
+                  Компьютерное моделирование в свое время позволило сэкономить силы и время, сделав необязательными физические и химические опыты.
+                  А квантовое моделирование обещает настоящий прорыв в этой области.
+                </div><a class="button button--4" href="#" data-hystmodal="#slide4">Подробнее</a>
+              </div>
+            </div>
+            <div class="graphic pp-scrollable desc desc--4" id="page6" data-tab="tab-5">
+              <div class="desc__title">
+                <svg class="desc__logo">
+                  <use xlink:href="./images/sprite.svg#logo"></use>
+                </svg><span><span class="desc__title-num"><span>O</span>5</span><span class="desc__title-text">Финансы</span></span>
+                <svg>
+                  <use xlink:href="./images/sprite.svg#slide-5"></use>
+                </svg>
+              </div>
+              <div class="desc__main">
+                <div class="desc__item">
+                  <div class="desc__image">
+                    <svg>
+                      <use xlink:href="./images/sprite.svg#slide-5-1"></use>
+                    </svg>
+                  </div>
+                  <div class="desc__text">Управление активами и инвестициями</div>
                 </div>
-                <div class="desc__main">
-                  <div class="desc__item">
-                    <div class="desc__image">
-                      <svg>
-                        <use xlink:href="./images/sprite.svg#slide-4-1"></use>
-                      </svg>
-                    </div>
-                    <div class="desc__text">Поиск новых материалов</div>
+                <div class="desc__item">
+                  <div class="desc__image">
+                    <svg>
+                      <use xlink:href="./images/sprite.svg#slide-5-2"></use>
+                    </svg>
                   </div>
-                  <div class="desc__item">
-                    <div class="desc__image">
-                      <svg>
-                        <use xlink:href="./images/sprite.svg#slide-4-2"></use>
-                      </svg>
-                    </div>
-                    <div class="desc__text">Изучение поведения веществ</div>
-                  </div>
-                  <div class="desc__item">
-                    <div class="desc__image">
-                      <svg>
-                        <use xlink:href="./images/sprite.svg#slide-4-3"></use>
-                      </svg>
-                    </div>
-                    <div class="desc__text">Замена дорогостоящим опытам</div>
-                  </div>
+                  <div class="desc__text">Оценка рисков</div>
                 </div>
-                <div class="desc__content">
-                  <div class="desc__content-text">
-                    Моделирование молекул это серьезная часть исследований при поиске новых материалов, изучении поведения веществ и их взаимодействия.
-                    Компьютерное моделирование в свое время позволило сэкономить силы и время, сделав необязательными физические и химические опыты.
-                    А квантовое моделирование обещает настоящий прорыв в этой области.
-                  </div><a class="button button--4" href="#" data-hystmodal="#slide4">Подробнее</a>
+                <div class="desc__item">
+                  <div class="desc__image">
+                    <svg>
+                      <use xlink:href="./images/sprite.svg#slide-5-3"></use>
+                    </svg>
+                  </div>
+                  <div class="desc__text">Кредитный скоринг</div>
+                </div>
+                <div class="desc__item">
+                  <div class="desc__image">
+                    <svg>
+                      <use xlink:href="./images/sprite.svg#slide-5-4"></use>
+                    </svg>
+                  </div>
+                  <div class="desc__text">Выявление мошенничества</div>
                 </div>
               </div>
-              <div class="graphic pp-scrollable desc desc--4" id="page6" data-tab="tab-5">
-                <div class="desc__title"><span class="desc__title-num"><span>O</span>5</span><span class="desc__title-text">Финансы</span>
-                  <svg>
-                    <use xlink:href="./images/sprite.svg#slide-5"></use>
-                  </svg>
+              <div class="desc__content">
+                <div class="desc__content-text">
+                  Квантовые вычисления обещают ускорить и сделать более точными финансовые сервисы: управление активами и инвестициями, оценка рисков,
+                  кредитный скоринг, выявление мошенничества и т.д. Такие финансовые гиганты как JP Morgan Chase, Goldman Sachs, BBVA и другие вкладывают
+                  огромные деньги в изучение квантовых технологий.
+                </div><a class="button button--5" href="#" data-hystmodal="#slide5">Подробнее</a>
+              </div>
+            </div>
+            <div class="graphic pp-scrollable desc desc--2" id="page7" data-tab="tab-6">
+              <div class="desc__title">
+                <svg class="desc__logo">
+                  <use xlink:href="./images/sprite.svg#logo"></use>
+                </svg><span><span class="desc__title-num"><span>O</span>6</span><span class="desc__title-text">Улучшение покрытия спутников</span></span>
+                <svg>
+                  <use xlink:href="./images/sprite.svg#slide-6"></use>
+                </svg>
+              </div>
+              <div class="desc__main">
+                <div class="desc__item">
+                  <div class="desc__image">
+                    <svg>
+                      <use xlink:href="./images/sprite.svg#slide-6-1"></use>
+                    </svg>
+                  </div>
+                  <div class="desc__text">Юстировка спутников</div>
                 </div>
-                <div class="desc__main">
-                  <div class="desc__item">
-                    <div class="desc__image">
-                      <svg>
-                        <use xlink:href="./images/sprite.svg#slide-5-1"></use>
-                      </svg>
-                    </div>
-                    <div class="desc__text">Управление активами и инвестициями</div>
+                <div class="desc__item">
+                  <div class="desc__image">
+                    <svg>
+                      <use xlink:href="./images/sprite.svg#slide-6-2"></use>
+                    </svg>
                   </div>
-                  <div class="desc__item">
-                    <div class="desc__image">
-                      <svg>
-                        <use xlink:href="./images/sprite.svg#slide-5-2"></use>
-                      </svg>
-                    </div>
-                    <div class="desc__text">Оценка рисков</div>
-                  </div>
-                  <div class="desc__item">
-                    <div class="desc__image">
-                      <svg>
-                        <use xlink:href="./images/sprite.svg#slide-5-3"></use>
-                      </svg>
-                    </div>
-                    <div class="desc__text">Кредитный скоринг</div>
-                  </div>
-                  <div class="desc__item">
-                    <div class="desc__image">
-                      <svg>
-                        <use xlink:href="./images/sprite.svg#slide-5-4"></use>
-                      </svg>
-                    </div>
-                    <div class="desc__text">Выявление мошенничества</div>
-                  </div>
-                </div>
-                <div class="desc__content">
-                  <div class="desc__content-text">
-                    Квантовые вычисления обещают ускорить и сделать более точными финансовые сервисы: управление активами и инвестициями, оценка рисков,
-                    кредитный скоринг, выявление мошенничества и т.д. Такие финансовые гиганты как JP Morgan Chase, Goldman Sachs, BBVA и другие вкладывают
-                    огромные деньги в изучение квантовых технологий.
-                  </div><a class="button button--5" href="#" data-hystmodal="#slide5">Подробнее</a>
+                  <div class="desc__text">Лучшее покрытие для моби&shy;льной и спутниковой связи</div>
                 </div>
               </div>
-              <div class="graphic pp-scrollable desc desc--2" id="page7" data-tab="tab-6">
-                <div class="desc__title"><span class="desc__title-num"><span>O</span>6</span><span class="desc__title-text">Улучшение покрытия спутников</span>
-                  <svg>
-                    <use xlink:href="./images/sprite.svg#slide-6"></use>
-                  </svg>
-                </div>
-                <div class="desc__main">
-                  <div class="desc__item">
-                    <div class="desc__image">
-                      <svg>
-                        <use xlink:href="./images/sprite.svg#slide-6-1"></use>
-                      </svg>
-                    </div>
-                    <div class="desc__text">Юстировка спутников</div>
+              <div class="desc__content">
+                <div class="desc__content-text">
+                  Лакуны в спутниковом покрытии (связи, телевидения, интернета) возникают из-за огромного количества комбинаций в юстировках спутников,
+                  которые не в состоянии обработать классические компьютеры. Если подключить к решению задачи квантовые компьютеры, связь станет доступнее.
+                </div><a class="button button--6" href="#" data-hystmodal="#slide6">Подробнее</a>
+              </div>
+            </div>
+            <div class="graphic pp-scrollable desc desc--3" id="page8" data-tab="tab-7">
+              <div class="desc__title">
+                <svg class="desc__logo">
+                  <use xlink:href="./images/sprite.svg#logo"></use>
+                </svg><span><span class="desc__title-num"><span>O</span>7</span><span class="desc__title-text">Более эффективная реклама</span></span>
+                <svg>
+                  <use xlink:href="./images/sprite.svg#slide-7"></use>
+                </svg>
+              </div>
+              <div class="desc__main">
+                <div class="desc__item">
+                  <div class="desc__image">
+                    <svg>
+                      <use xlink:href="./images/sprite.svg#slide-7-1"></use>
+                    </svg>
                   </div>
-                  <div class="desc__item">
-                    <div class="desc__image">
-                      <svg>
-                        <use xlink:href="./images/sprite.svg#slide-6-2"></use>
-                      </svg>
-                    </div>
-                    <div class="desc__text">Лучшее покрытие для моби&shy;льной и спутниковой связи</div>
-                  </div>
+                  <div class="desc__text">Персональные предложения</div>
                 </div>
-                <div class="desc__content">
-                  <div class="desc__content-text">
-                    Лакуны в спутниковом покрытии (связи, телевидения, интернета) возникают из-за огромного количества комбинаций в юстировках спутников,
-                    которые не в состоянии обработать классические компьютеры. Если подключить к решению задачи квантовые компьютеры, связь станет доступнее.
-                  </div><a class="button button--6" href="#" data-hystmodal="#slide6">Подробнее</a>
+                <div class="desc__item">
+                  <div class="desc__image">
+                    <svg>
+                      <use xlink:href="./images/sprite.svg#slide-7-2"></use>
+                    </svg>
+                  </div>
+                  <div class="desc__text">Учет индивидуальных особенностей</div>
+                </div>
+                <div class="desc__item">
+                  <div class="desc__image">
+                    <svg>
+                      <use xlink:href="./images/sprite.svg#slide-7-3"></use>
+                    </svg>
+                  </div>
+                  <div class="desc__text">Более эффективное медиапланирование</div>
                 </div>
               </div>
-              <div class="graphic pp-scrollable desc desc--3" id="page8" data-tab="tab-7">
-                <div class="desc__title"><span class="desc__title-num"><span>O</span>7</span><span class="desc__title-text">Более эффективная реклама</span>
-                  <svg>
-                    <use xlink:href="./images/sprite.svg#slide-7"></use>
-                  </svg>
+              <div class="desc__content">
+                <div class="desc__content-text">
+                  С каждым годом реклама становиться все более персонализированной. Маркетологи изучают поведение людей, пытаясь сформулировать идеальное послание,
+                  которое найдет отклик в сердце потенциального клиента. Но эти попытки будут малоэффективными, пока не появятся мощные алгоритмы,
+                  способные учитывать миллионы комбинаций.
+                </div><a class="button button--7" href="#" data-hystmodal="#slide7">Подробнее</a>
+              </div>
+            </div>
+            <div class="graphic pp-scrollable desc desc--2" id="page9" data-tab="tab-8">
+              <div class="desc__title">
+                <svg class="desc__logo">
+                  <use xlink:href="./images/sprite.svg#logo"></use>
+                </svg><span><span class="desc__title-num"><span>O</span>8</span><span class="desc__title-text">Искуственный интеллект</span></span>
+                <svg>
+                  <use xlink:href="./images/sprite.svg#slide-8"></use>
+                </svg>
+              </div>
+              <div class="desc__main">
+                <div class="desc__item">
+                  <div class="desc__image">
+                    <svg>
+                      <use xlink:href="./images/sprite.svg#slide-8-1"></use>
+                    </svg>
+                  </div>
+                  <div class="desc__text">Ускоренное обучение моделей</div>
                 </div>
-                <div class="desc__main">
-                  <div class="desc__item">
-                    <div class="desc__image">
-                      <svg>
-                        <use xlink:href="./images/sprite.svg#slide-7-1"></use>
-                      </svg>
-                    </div>
-                    <div class="desc__text">Персональные предложения</div>
+                <div class="desc__item">
+                  <div class="desc__image">
+                    <svg>
+                      <use xlink:href="./images/sprite.svg#slide-8-2"></use>
+                    </svg>
                   </div>
-                  <div class="desc__item">
-                    <div class="desc__image">
-                      <svg>
-                        <use xlink:href="./images/sprite.svg#slide-7-2"></use>
-                      </svg>
-                    </div>
-                    <div class="desc__text">Учет индивидуальных особенностей</div>
-                  </div>
-                  <div class="desc__item">
-                    <div class="desc__image">
-                      <svg>
-                        <use xlink:href="./images/sprite.svg#slide-7-3"></use>
-                      </svg>
-                    </div>
-                    <div class="desc__text">Более эффективное медиапланирование</div>
-                  </div>
-                </div>
-                <div class="desc__content">
-                  <div class="desc__content-text">
-                    С каждым годом реклама становиться все более персонализированной. Маркетологи изучают поведение людей, пытаясь сформулировать идеальное послание,
-                    которое найдет отклик в сердце потенциального клиента. Но эти попытки будут малоэффективными, пока не появятся мощные алгоритмы,
-                    способные учитывать миллионы комбинаций.
-                  </div><a class="button button--7" href="#" data-hystmodal="#slide7">Подробнее</a>
+                  <div class="desc__text">Более высокая точность и скорость ответов нейросетей</div>
                 </div>
               </div>
-              <div class="graphic pp-scrollable desc desc--2" id="page9" data-tab="tab-8">
-                <div class="desc__title"><span class="desc__title-num"><span>O</span>8</span><span class="desc__title-text">Искуственный интеллект</span>
-                  <svg>
-                    <use xlink:href="./images/sprite.svg#slide-8"></use>
-                  </svg>
-                </div>
-                <div class="desc__main">
-                  <div class="desc__item">
-                    <div class="desc__image">
-                      <svg>
-                        <use xlink:href="./images/sprite.svg#slide-8-1"></use>
-                      </svg>
-                    </div>
-                    <div class="desc__text">Ускоренное обучение моделей</div>
+              <div class="desc__content">
+                <div class="desc__content-text">
+                  Точность и скорость ответов нейросетей напрямую зависят от того, насколько хорошо они обучены. Дата-сайентисты знают, что обучение сложных
+                  моделей — процесс долгий. Его можно ускорить в разы, если использовать вместо обычных компьютеров квантовые. Правда, потребуются другие
+                  алгоритмы, библиотеки и языки программирования.
+                </div><a class="button button--8" href="#" data-hystmodal="#slide8">Подробнее</a>
+              </div>
+            </div>
+            <div class="graphic pp-scrollable desc desc--2" id="page10" data-tab="tab-9">
+              <div class="desc__title">
+                <svg class="desc__logo">
+                  <use xlink:href="./images/sprite.svg#logo"></use>
+                </svg><span><span class="desc__title-num"><span>O</span>9</span><span class="desc__title-text">Прогноз погоды</span></span>
+                <svg>
+                  <use xlink:href="./images/sprite.svg#slide-9"></use>
+                </svg>
+              </div>
+              <div class="desc__main">
+                <div class="desc__item">
+                  <div class="desc__image">
+                    <svg>
+                      <use xlink:href="./images/sprite.svg#slide-9-1"></use>
+                    </svg>
                   </div>
-                  <div class="desc__item">
-                    <div class="desc__image">
-                      <svg>
-                        <use xlink:href="./images/sprite.svg#slide-8-2"></use>
-                      </svg>
-                    </div>
-                    <div class="desc__text">Более высокая точность и скорость ответов нейросетей</div>
-                  </div>
+                  <div class="desc__text">Более высокая точность</div>
                 </div>
-                <div class="desc__content">
-                  <div class="desc__content-text">
-                    Точность и скорость ответов нейросетей напрямую зависят от того, насколько хорошо они обучены. Дата-сайентисты знают, что обучение сложных
-                    моделей — процесс долгий. Его можно ускорить в разы, если использовать вместо обычных компьютеров квантовые. Правда, потребуются другие
-                    алгоритмы, библиотеки и языки программирования.
-                  </div><a class="button button--8" href="#" data-hystmodal="#slide8">Подробнее</a>
+                <div class="desc__item">
+                  <div class="desc__image">
+                    <svg>
+                      <use xlink:href="./images/sprite.svg#slide-9-2"></use>
+                    </svg>
+                  </div>
+                  <div class="desc__text">Большая глубина прогнозов</div>
                 </div>
               </div>
-              <div class="graphic pp-scrollable desc desc--2" id="page10" data-tab="tab-9">
-                <div class="desc__title"><span class="desc__title-num"><span>O</span>9</span><span class="desc__title-text">Прогноз погоды</span>
-                  <svg>
-                    <use xlink:href="./images/sprite.svg#slide-9"></use>
-                  </svg>
-                </div>
-                <div class="desc__main">
-                  <div class="desc__item">
-                    <div class="desc__image">
-                      <svg>
-                        <use xlink:href="./images/sprite.svg#slide-9-1"></use>
-                      </svg>
-                    </div>
-                    <div class="desc__text">Более высокая точность</div>
+              <div class="desc__content">
+                <div class="desc__content-text">
+                  Синоптики пытаются предсказать погоду, оперируя постоянно меняющимися переменными: сила и направление ветра, атмосферное давление, величина
+                  и характер осадков и т.д. Точность и глубину прогнозов сдерживает недостаточная мощность вычислительных центров. Квантовые компьютеры
+                  способны радикально изменить ситуацию, сделав прогнозы погоды значительно точнее.
+                </div><a class="button button--9" href="#" data-hystmodal="#slide9">Подробнее</a>
+              </div>
+            </div>
+            <div class="graphic pp-scrollable desc desc--3" id="page11" data-tab="tab-10">
+              <div class="desc__title">
+                <svg class="desc__logo">
+                  <use xlink:href="./images/sprite.svg#logo"></use>
+                </svg><span><span class="desc__title-num">1<span>O</span></span><span class="desc__title-text">Предсказаниe пандемий</span></span>
+                <svg width="330" height="228">
+                  <use xlink:href="./images/sprite.svg#slide-10"></use>
+                </svg>
+              </div>
+              <div class="desc__main">
+                <div class="desc__item">
+                  <div class="desc__image">
+                    <svg width="200" height="131">
+                      <use xlink:href="./images/sprite.svg#slide-10-1"></use>
+                    </svg>
                   </div>
-                  <div class="desc__item">
-                    <div class="desc__image">
-                      <svg>
-                        <use xlink:href="./images/sprite.svg#slide-9-2"></use>
-                      </svg>
-                    </div>
-                    <div class="desc__text">Большая глубина прогнозов</div>
-                  </div>
+                  <div class="desc__text">Просчет сценариев распространения вирусов</div>
                 </div>
-                <div class="desc__content">
-                  <div class="desc__content-text">
-                    Синоптики пытаются предсказать погоду, оперируя постоянно меняющимися переменными: сила и направление ветра, атмосферное давление, величина
-                    и характер осадков и т.д. Точность и глубину прогнозов сдерживает недостаточная мощность вычислительных центров. Квантовые компьютеры
-                    способны радикально изменить ситуацию, сделав прогнозы погоды значительно точнее.
-                  </div><a class="button button--9" href="#" data-hystmodal="#slide9">Подробнее</a>
+                <div class="desc__item">
+                  <div class="desc__image">
+                    <svg width="130" height="130">
+                      <use xlink:href="./images/sprite.svg#slide-10-2"></use>
+                    </svg>
+                  </div>
+                  <div class="desc__text">Отслеживание эпидемиоло&shy;гической ситуации в мире</div>
+                </div>
+                <div class="desc__item">
+                  <div class="desc__image">
+                    <svg width="130" height="130">
+                      <use xlink:href="./images/sprite.svg#slide-10-3"></use>
+                    </svg>
+                  </div>
+                  <div class="desc__text">Заблаговременное преду&shy;преждение населения</div>
                 </div>
               </div>
-              <div class="graphic pp-scrollable desc desc--3" id="page11" data-tab="tab-10">
-                <div class="desc__title"><span class="desc__title-num">1<span>O</span></span><span class="desc__title-text">Предсказаниe пандемий</span>
-                  <svg width="330" height="228">
-                    <use xlink:href="./images/sprite.svg#slide-10"></use>
-                  </svg>
-                </div>
-                <div class="desc__main">
-                  <div class="desc__item">
-                    <div class="desc__image">
-                      <svg width="200" height="131">
-                        <use xlink:href="./images/sprite.svg#slide-10-1"></use>
-                      </svg>
-                    </div>
-                    <div class="desc__text">Просчет сценариев распространения вирусов</div>
-                  </div>
-                  <div class="desc__item">
-                    <div class="desc__image">
-                      <svg width="130" height="130">
-                        <use xlink:href="./images/sprite.svg#slide-10-2"></use>
-                      </svg>
-                    </div>
-                    <div class="desc__text">Отслеживание эпидемиоло&shy;гической ситуации в мире</div>
-                  </div>
-                  <div class="desc__item">
-                    <div class="desc__image">
-                      <svg width="130" height="130">
-                        <use xlink:href="./images/sprite.svg#slide-10-3"></use>
-                      </svg>
-                    </div>
-                    <div class="desc__text">Заблаговременное преду&shy;преждение населения</div>
-                  </div>
-                </div>
-                <div class="desc__content">
-                  <div class="desc__content-text">
-                    ВОЗ уже обещает нам новый вирус Х, который будет во много раз опаснее ковида. С помощью квантовых вычислений медики могут отслеживать
-                    эпидемиологическую ситуацию во всем мире и просчитывать различные варианты распространения болезней, учитывая тысячи разнообразных факторов.
-                  </div><a class="button button--10" href="#" data-hystmodal="#slide10">Подробнее</a>
-                </div>
+              <div class="desc__content">
+                <div class="desc__content-text">
+                  Крупнейшие медицинские консорциумы (включая проекты под эгидой Всемирной организации здравоохранения и ведущих
+                  институтов здравоохранения) начали использовать квантовое машинное обучение на практике. Ученые уже рассчитывают
+                  мутации белков вирусов на квантовых процессорах, превращая абстрактную аналитику в превентивное оружие.
+                </div><a class="button button--10" href="#" data-hystmodal="#slide10">Подробнее</a>
               </div>
             </div>
           </div>
@@ -510,30 +553,37 @@
             <use xlink:href="./images/sprite.svg#close"></use>
           </svg>
         </button>
-        <div class="modal">
-          <div class="modal__content">
+        <div class="modal-more">
+          <div class="modal-more__content">
+            <div class="modal-more__title">Квантовая медицина: от умных диагнозов до лекарств за недели</div>
             <p>
-              <b>Квантовое машинное обучение в анализе медицинских изображений.</b> В 2023 году исследователи применили квантовые
-              алгоритмы для улучшения диагностики на основе медицинских изображений. С помощью квантовых нейронных сетей
-              удалось существенно повысить точность диагностики по рентгеновским снимкам и томограммам. Этот подход помогает
-              врачам быстрее выявлять болезни, такие как рак и сердечно-сосудистые заболевания, на ранних стадиях, что
-              повышает шансы на успешное лечение.
+              Медицина и фармацевтика стали главными бенефициарами квантовой революции. Там, где классические компьютеры
+              десятилетиями перебирали химические формулы и медицинские снимки, квантовые алгоритмы находят правильные
+              ответы за считанные дни.
             </p>
-            <p>
-              <b>Квантовые вычисления в онкологии.</b> Одним из самых многообещающих применений квантовых технологий стало их
-              использование для прогнозирования и персонализированного лечения рака. В 2021 году квантовые компьютеры
-              начали использоваться для моделирования молекулярных процессов, таких как реакция препаратов с опухолевыми
-              клетками. Это позволило улучшить точность прогноза эффективности лечения и сократить время на подбор препаратов
-              для конкретных пациентов.
-            </p>
-            <p>
-              <b>Сокращение времени разработки лекарств.</b> Компания Qubit Pharmaceuticals применяет квантовые вычисления для
-              ускорения разработки новых лекарств. В 2023 году они продемонстрировали, как квантовые алгоритмы могут
-              помочь в моделировании молекулярных взаимодействий, что значительно повышает точность предсказаний по
-              сравнению с классическими методами. В результате Qubit Pharmaceuticals смогла сократить время разработки
-              нового лекарства до 30% по сравнению с традиционными методами. Это существенно может уменьшить затраты на
-              исследования и разработки в фармацевтической отрасли.
-            </p>
+            <ul>
+              <li>
+                <b>Ювелирное распознавание болезней (анализ снимков).</b>
+                Диагностика по снимкам МРТ, КТ и рентгену вышла на новый уровень благодаря квантовым нейросетям (QNN). Квантовый
+                ИИ считывает микроскопические изменения в тканях, которые человеческий глаз или обычная программа могут пропустить
+                на ранней стадии. Это позволяет диагностировать онкологические и сердечно-сосудистые заболевания с беспрецедентной
+                точностью, когда болезнь еще можно победить быстро и без тяжелых последствий.
+              </li>
+              <li>
+                <b>Опережающий удар по онкологии.</b>
+                Квантовые процессоры помогли онкологам перейти к истинно персональной медицине. Вместо того чтобы тестировать
+                химиотерапию на пациенте «вслепую», гибридные квантовые модели воссоздают точную цифровую копию опухоли
+                и моделируют её реакцию на сотни препаратов одновременно. Врач получает готовый, индивидуально подобранный
+                план лечения, который гарантированно сработает для конкретного человека.
+              </li>
+              <li>
+                <b>Квантовый конвейер лекарств.</b> Традиционный поиск новой молекулы для лекарства раньше занимал до 10–12 лет
+                и требовал миллиардных затрат. Квантовые фармацевтические компании (такие как Qubit Pharmaceuticals) доказали,
+                что моделирование молекулярных взаимодействий на квантовых симуляторах сокращает время разработки новых
+                препаратов более чем на 30–40%. Квантовые алгоритмы «в цифре» собирают идеальное лекарство, как конструктор,
+                избавляя ученых от необходимости проводить тысячи дорогостоящих и долгих слепых тестов в реальных лабораториях.
+              </li>
+            </ul>
           </div>
         </div>
       </div>
@@ -547,27 +597,34 @@
             <use xlink:href="./images/sprite.svg#close"></use>
           </svg>
         </button>
-        <div class="modal">
-          <div class="modal__content">
+        <div class="modal-more">
+          <div class="modal-more__content">
+            <div class="modal-more__title">Абсолютная защита: квантовые сети в России и международные рекорды</div>
             <p>
-              <b>Квантовое шифрование в России.</b> В последние годы Россия активно развивает квантовые технологии, рассматривая их
-              как ключевую составляющую для обеспечения безопасности критической информационной инфраструктуры. Одной
-              из главных разработок в этой сфере является технология квантового распределения ключей (КРК), которая
-              предлагает принципиально новый уровень защиты информации. В отличие от традиционных методов, где данные
-              шифруются сигнальными импульсами, КРК использует квантовые состояния фотонов для передачи криптографических
-              ключей. Это позволяет защитить данные на уровне законов квантовой физики, делая такие системы практически
-              неуязвимыми перед существующими и перспективными угрозами, включая квантовые компьютеры. <br>
-              В России к 2030 году в рамках национального проекта «Экономика данных» планируется значительно расширить
-              инфраструктуру квантовых сетей. Важная задача – создать более 15 000 км магистральных квантовых сетей, которые
-              обеспечат безопасную передачу данных для государственных и частных компаний. Ключевые компоненты для таких
-              сетей уже разрабатываются российскими компаниями. <br>
-              Развивается и международное сотрудничество. В 2024 году российские и китайские
-              ученые <a href='https://www.cnews.ru/news/top/2024-04-02_kitaj_i_rossiya_sozdali_sputnikovyj' target='_blank'>сообщили</a> о
-              результатах эксперимента, в котором они установили квантово защищенную связь между наземными станциями
-              в Звенигороде и Наньшане на расстоянии в 3600 км.  Связь осуществлялась с помощью первого в мире
-              квантового спутника «Мо-цзы». Этот проект демонстрирует потенциал квантовой связи для защиты данных
-              в дипломатии, банковской сфере и других критически важных отраслях.
+              Безопасность критической информационной инфраструктуры — приоритет для ИТ-сферы. Главным оружием против хакеров
+              будущего стала технология квантового распределения ключей (КРК). В отличие от традиционных методов, где
+              криптографические ключи можно перехватить и скопировать, КРК использует одиночные фотоны (частицы света).
+              Попытка измерить или считать параметры такой частицы неизбежно меняет её состояние — система мгновенно
+              фиксирует шпионаж и аннулирует ключ. Это защищает данные на уровне законов физики.
             </p>
+            <p>В России эта технология уже вышла из лабораторий на федеральный уровень:</p>
+            <ul>
+              <li>
+                <b>Национальный масштаб.</b> В рамках запущенного национального проекта «Экономика данных» в стране развернуто
+                масштабное строительство инфраструктуры. Цель программы к 2030 году — преодолеть отметку в 15 000 км магистральных
+                квантовых сетей. Эти защищенные цифровые коридоры свяжут между собой государственные ведомства, дата-центры
+                и офисы крупнейших корпораций по всей стране. Важно, что ключевые компоненты (от лазеров до систем
+                детекторов одиночных фотонов) производятся внутри страны.
+              </li>
+              <li>
+                <b>Космический рекорд (Россия — Китай).</b> Развивается и международное сотрудничество в квантовой сфере. Российские
+                физики совместно с китайскими коллегами успешно провели исторический эксперимент по межконтинентальной
+                квантовой связи. Используя первый в мире квантовый спутник «Мо-цзы», ученые передали зашифрованные изображения
+                между наземными станциями в Звенигороде (Подмосковье) и Наньшане (Китай). Расстояние между точками составило
+                рекордные 3600 км. Этот успех доказал, что квантовый интернет будущего сможет защищать дипломатические и банковские
+                каналы связи даже в глобальном, планетарном масштабе.
+              </li>
+            </ul>
           </div>
         </div>
       </div>
@@ -581,32 +638,40 @@
             <use xlink:href="./images/sprite.svg#close"></use>
           </svg>
         </button>
-        <div class="modal">
-          <div class="modal__content">
+        <div class="modal-more">
+          <div class="modal-more__content">
+            <div class="modal-more__title">Квантовая логистика: управление мегаполисами, флотом и беспилотниками</div>
             <p>
-              <b>Оптимизация маршрутов доставки.</b> В крупном городе применили гибридные методы квантовых и классических
-              вычислений для оптимизации маршрутов доставки в городе. В проекте было учтено более 1200 пунктов
-              доставки с ограничениями по времени в 30 минут и требованиями к грузоподъемности транспорта.
-              В результате удалось сократить общие затраты на доставку и повысить удовлетворенность клиентов
-              за счет более точного планирования маршрутов и частой оптимизации во время выполнения доставок.
-              Это решение показало значительное улучшение логистических процессов в сложных городских условиях,
-              где традиционные вычислительные методы уже не справлялись с нагрузкой.
+              Логистика — это бесконечный поиск компромиссов. Как доставить тысячи посылок вовремя, если на дорогах пробки,
+              у курьеров заканчивается смена, а вместимость машин ограничена? На перебор всех комбинаций классические
+              суперкомпьютеры тратят часы. Гибридные квантовые платформы решают эти сложнейшие задачи оптимизации на лету.
             </p>
-            <p>
-              <b>Автономная навигация с квантовой поддержкой (QAV).</b> Исследования показывают, что квантовые алгоритмы способны
-              значительно сократить время в пути для автономных транспортных средств за счет более эффективного
-              управления светофорами и маршрутизации. Например, алгоритм Quantum Approximate Optimization Algorithm
-              (QAOA) привел к снижению времени в пути на 25% и расхода топлива на 15%. Это особенно важно для крупных
-              городов, где управление трафиком становится все более сложным, а решения на основе квантовых вычислений
-              могут значительно уменьшить заторы на дорогах и улучшить экологическую обстановку.
-            </p>
-            <p>
-              <b>Оптимизация морской логистики:</b> Ученые исследовали применение квантовых алгоритмов для оптимизации морских
-              перевозок сжиженного природного газа. Смешивая классические и квантовые вычисления, компании смогли найти
-              более эффективные маршруты для перевозок, что позволило снизить затраты на топливо и повысить устойчивость
-              поставок. Это важный шаг в сторону более устойчивых и точных операций в морской логистике, особенно в
-              условиях неопределенности, вызванной погодными условиями и изменениями спроса.
-            </p>
+            <ul>
+              <li>
+                <b>Умная городская доставка.</b> Крупные логистические операторы перешли от теории к практике. Яркий пример — DHL
+                в сотрудничестве с квантовыми вендорами. В Лиссабоне (Португалия) они развернули систему, которая одновременно
+                рассчитывает маршруты для сотен курьеров с учетом 1200+ точек, жестких 30-минутных окон и грузоподъемности
+                машин. Квантовый процессор пересчитывает маршруты прямо во время движения машин, мгновенно подстраиваясь
+                под аварии и заторы. Итог: общее время планирования сократилось до нескольких минут, а транспортные расходы
+                компаний упали на 10–15%.
+              </li>
+              <li>
+                <b>Город без пробок и автономный транспорт.</b> Квантовое машинное обучение стало фундаментом для создания «умных
+                городов» и беспилотного трафика. Вместо того чтобы настраивать светофоры по жесткому расписанию,
+                гибридные квантовые алгоритмы оптимизации управляют городскими потоками в режиме реального времени.
+                Масштабный пилотный проект реализовал автогигант Toyota совместно с D-Wave в Токио (Япония) — одном из самых
+                загруженных мегаполисов мира. Они подключили к квантовому оптимизатору сеть из тысяч городских
+                такси и коммерческих автомобилей. Система координировала потоки в режиме реального времени. Эксперимент доказал,
+                что квантовая маршрутизация способна снизить время в пути на 25%, а расход топлива — на 15%.
+              </li>
+              <li>
+                <b>Морские супермаршруты: логистика СПГ.</b> В сфере глобальных грузоперевозок квантовые вычисления оптимизируют
+                движение флота. Маршрут судна зависит от штормов, стоимости топлива в портах, испарения газа в пути и меняющегося
+                спроса на терминалах. Квантовые вычислители просчитывают эти риски на недели вперед. Внедрение гибридных вычислений
+                позволило нефтегазовым и логистическим гигантам снизить углеродный след, сократить затраты на топливо
+                и гарантировать устойчивость поставок энергии в условиях полной неопределенности.
+              </li>
+            </ul>
           </div>
         </div>
       </div>
@@ -620,36 +685,44 @@
             <use xlink:href="./images/sprite.svg#close"></use>
           </svg>
         </button>
-        <div class="modal">
-          <div class="modal__content">
+        <div class="modal-more">
+          <div class="modal-more__content">
+            <div class="modal-more__title">Квантовое программирование материи: от создания новых молекул до вакцин от рака</div>
             <p>
-              <b>Моделирование молекул на российском 16-кубитном квантовом компьютере.</b> В России был разработан 16-кубитный
-              квантовый компьютер, который предназначен в том числе для моделирования молекул. Этот проект финансируется
-              «Росатомом», и устройство выполняет полезные задачи, такие как моделирование химических соединений, что имеет
-              важное значение для таких отраслей, как фармацевтика и материаловедение. Это шаг к внедрению квантовых
-              технологий в практическую работу, и одна из самых значимых инициатив в России.
+              Традиционная химия веками двигалась наощупь, проводя тысячи слепых экспериментов в лабораториях. Классические
+              суперкомпьютеры не способны точно рассчитать поведение электронов в сложных соединениях из-за феномена
+              квантовой запутанности. Но с появлением квантовых процессоров ученые получили возможность «программировать»
+              материю на уровне отдельных атомов, что кардинально меняет медицину, электронику и материаловедение.
             </p>
-            <p>
-              <b>Моделирование сложных молекул для разработки новых материалов.</b> В 2023 году квантовый компьютер IBM
-              смоделировал динамику спинов в модели материалов, используя 127-кубитный процессор Eagle. Этот прорыв
-              позволяет исследователям моделировать сложные системы, что раньше было невозможно для классических
-              компьютеров. Это открытие особенно важно для создания новых материалов, таких как эффективные батареи
-              или лекарства. Ранее симуляции такого уровня сложности приводили к ошибкам, но благодаря квантовым
-              методам стало возможным значительно улучшить точность прогнозов свойств молекул.
-            </p>
-            <p>
-              <b>Моделирование поведения электронов.</b> В 2021 году ученые провели успешные эксперименты по моделированию
-              поведения электронов в молекулах, что позволит ускорить процесс разработки медикаментов. В сравнении
-              с классическими компьютерами, квантовые системы смогут моделировать сложные взаимодействия в молекулах
-              за значительно меньшее время, что уже начинает приводить к ускорению открытий в фармацевтике.
-            </p>
-            <p>
-              <b>ИИ для новых вакцин.</b> Биотехнологическая компания Moderna, известная в частности своей вакциной против
-              ковида, и IBM объявили о партнёрстве, которое направлено на использование квантовых вычислений для
-              ускорения разработки новых мРНК-терапий. В рамках сотрудничества будут применяться модели на основе
-              искусственного интеллекта для предсказания свойств молекул и оптимизации различных компонентов мРНК,
-              что должно значительно увеличить скорость и эффективность процесса разработки лекарств.
-            </p>
+            <ul>
+              <li>
+                <b>Синтез молекул, которых не было в природе.</b> В марте 2026 г. международная группа ученых совершила двойной прорыв:
+                они физически синтезировали совершенно новую молекулу C₁₃Cl₂ с уникальной спиральной топологией и доказали
+                ее экзотическую квантовую природу. Поскольку поведение электронов в ней оказалось слишком запутанным
+                для обычных ПК, исследователи применили квантовые процессоры для прямого моделирования ее структуры.
+                Это открытие доказало, что свойства материалов теперь можно целенаправленно конструировать под конкретные
+                нужды — для создания сверхпроводников, катализаторов и микросхем будущего.
+              </li>
+              <li>
+                <b>Российские процессоры на ионах и атомах.</b> Отечественная наука перешла на передовую кудитную технологию, где одна
+                физическая частица способна хранить и обрабатывать больше данных, чем стандартный кубит. Команда Российского
+                квантового центра (РКЦ) и ФИАН запустила отечественный 50-кубитный квантовый компьютер на ионах, а ученые
+                МГУ масштабировали процессор на нейтральных атомах до 72 кубитов. Через облачный доступ эти мощности уже используются
+                для нужд квантовой химии: моделирования сложных соединений и расчета электронной плотности. Это закладывает
+                базу для создания принципиально новых отечественных материалов и экспресс-разработки лекарств без проведения
+                многолетних тестов.
+              </li>
+              <li>
+                <b>Квантовый ИИ против рака.</b> Биотехнологический гигант Moderna и корпорация IBM объединили квантовые вычисления
+                и искусственный интеллект для создания персональных мРНК-вакцин от онкологии. Задача ИИ — спроектировать
+                молекулу, которая обучит иммунную систему человека уничтожать опухоль. Но эта молекула может сворачиваться
+                в организме миллионами способов. В этом тандеме нейросети генерируют миллиарды «чертежей» будущей вакцины,
+                а квантовый компьютер просчитывает, какой из них сработает идеально. Технология уже позволила провести самую
+                масштабную в истории симуляцию структуры РНК, сократив годы лабораторных поисков до нескольких недель.
+                Это позволит за считанные дни создавать индивидуальные вакцины против рака, адаптированные под конкретного
+                пациента, а также препараты от опасных вирусов и гриппа.
+              </li>
+            </ul>
           </div>
         </div>
       </div>
@@ -663,31 +736,61 @@
             <use xlink:href="./images/sprite.svg#close"></use>
           </svg>
         </button>
-        <div class="modal">
-          <div class="modal__content">
+        <div class="modal-more">
+          <div class="modal-more__content">
+            <p><b>Квантовая защита денег: от тестов к национальному «невзламываемому» интернету</b></p>
             <p>
-              <b>Оптимизация портфеля</b> Один из испанский банков применил квантовые вычисления для оптимизации своих
-              инвестиционных портфелей. В результате использования квантового компьютера для обработки данных о
-              различных инвестиционных возможностях, банк смог сократить время на вычисления с 30 часов до менее
-              трех минут. Это позволило значительно ускорить процесс принятия инвестиционных решений и повысить
-              качество обслуживания клиентов.
+              Если в 2017 г. Сбербанк только тестировал квантовую связь между двумя офисами в Москве, то сегодня российский
+              финансовый сектор перешел к масштабной защите данных на государственном уровне. Крупнейшие банки страны
+              (включая Сбербанк и Газпромбанк) интегрируют свои системы с магистральной квантовой сетью. Эта сеть уже опутала
+              страну, соединив Москву, Санкт-Петербург, Казань и другие города тысячами километров квантовых линий.
             </p>
             <p>
-              <b>Кредитный риск</b> В 2022 году исследователи протестировали квантовые вычисления для моделирования кредитных
-              рисков, которые включают огромные объемы данных и сложные расчеты. <br> Квантовые алгоритмы показали улучшение
-              скорости расчетов по сравнению с традиционными методами. Это особенно полезно для банков, которые
-              должны оценивать потенциальные риски выдачи кредитов, учитывая большое количество факторов, влияющих
-              на платежеспособность клиентов.
+              Зачем это нужно обычным людям? С развитием технологий и нейросетей традиционные банковские пароли и шифры вскоре
+              станут уязвимыми для хакеров. Квантовая связь решает эту проблему радикально — с помощью законов физики. Ключи
+              для шифрования банковских переводов передаются с помощью одиночных частиц света (фотонов). Главная особенность
+              квантового мира в том, что за ним нельзя «незаметно подсмотреть». Если хакер попытается перехватить данные
+              на линии, частица света мгновенно разрушится, система заметит вмешательство и заблокирует передачу. Это гарантирует
+              абсолютную, стопроцентную защиту вкладов, транзакций и персональных данных клиентов от любых кибератак будущего.
+            </p>
+            <p><b>Оптимизация инвестиций: управление портфелем на лету</b></p>
+            <p>
+              Когда банк или инвестиционный фонд собирает для клиента инвестиционный портфель, его задача — максимизировать доход
+              и свести к минимуму риски. Но если активов десятки, а рынок меняется каждую секунду, количество возможных
+              комбинаций и сценариев становится астрономическим — больше, чем атомов в известной Вселенной. Обычному
+              суперкомпьютеру требуется около двух суток (более 30 часов) непрерывной работы, чтобы рассчитать оптимальный
+              баланс с учетом меняющихся налогов, комиссий и курсов. За это время ситуация на бирже успевает полностью
+              измениться, и расчеты устаревают.
             </p>
             <p>
-              <b>Надежная передача данных в финансовой сфере</b> Сбербанк в 2021 году подписал соглашение с
-              «Росатомом» для совместного изучения квантовых технологий для обеспечения безопасности данных и
-              повышения скорости обработки информации. Сбербанк рассматривает квантовые технологии как способ трансформации
-              бизнес-моделей в различных отраслях, включая финансы, где важна надежная передача данных.
-              Сотрудничество с «Росатомом» также направлено на использование квантовых технологий для решения
-              практических задач, что может существенно изменить финансовый сектор в России. <br>
-              Ранее Сбербанк уже сотрудничал с Российским квантовым центром, запустив квантовую защищенную линию
-              связи между двумя офисами в Москве в 2017 году.
+              Крупные европейские банки (такие как BBVA и CaixaBank) совершили прорыв, внедрив гибридные квантовые алгоритмы.
+              Вместо последовательного перебора вариантов квантовый компьютер решает эту задачу мгновенно — весь цикл сложных
+              расчетов сократился с 30 часов до менее чем трех минут.
+            </p>
+            <p>
+              Сегодня эта технология позволяет финансистам не просто один раз собрать портфель, а динамически перестраивать
+              его в режиме реального времени, моментально реагируя на любые новости и кризисы на бирже. Для клиентов банков
+              это означает совершенно иной уровень защиты сбережений и повышенную доходность вкладов даже в периоды жесткой
+              экономической нестабильности
+            </p>
+            <p><b>Оценка кредитных рисков: квантовый ИИ против банковских кризисов</b></p>
+            <p>
+              Оценка платежеспособности заемщиков — одна из самых ресурсоемких задач для банков. Чтобы решить, выдавать ли крупный
+              кредит компании или ипотеку человеку, алгоритмы должны сопоставить миллионы факторов: от кредитной истории
+              и рыночных колебаний до скрытых связей между компаниями. Обычные компьютеры анализируют эти данные по очереди,
+              из-за чего оценка портфелей в масштабах банка занимает часы или даже дни.
+            </p>
+            <p>
+              Крупнейшие мировые банки (такие как HSBC, JPMorgan Chase и CaixaBank) начали использовать гибридные модели,
+              объединяющие нейросети и квантовые вычисления (квантовое машинное обучение). Благодаря свойству суперпозиции
+              квантовый компьютер способен просчитывать тысячи сценариев развития событий одновременно.
+            </p>
+            <p>
+              На практике это позволяет банкам автоматизировать одобрение сложных кредитов и выявлять потенциально невозвратные
+              долги на критически ранних стадиях. Точность прогнозирования дефолтов выросла на несколько процентов, что
+              в масштабах банковской системы экономит миллиарды долларов. Кроме того, скорость стресс-тестирования кредитных
+              портфелей сократилась с десятков часов до нескольких минут, позволяя финансовым организациям мгновенно
+              реагировать на любые экономические шоки.
             </p>
           </div>
         </div>
@@ -702,37 +805,39 @@
             <use xlink:href="./images/sprite.svg#close"></use>
           </svg>
         </button>
-        <div class="modal">
-          <div class="modal__content">
+        <div class="modal-more">
+          <div class="modal-more__content">
+            <p><b>Квантовый космос: управление спутниковыми созвездиями на лету</b></p>
             <p>
-              Квантовые вычисления могут значительно улучшить эту сферу в будущем за счет оптимизации траекторий,
-              управления ресурсами связи и предотвращения столкновений.
+              Современные околоземные орбиты перегружены: сегодня вокруг Земли вращаются тысячи спутников связи и мониторинга,
+              образуя гигантские «мега-созвездия». Управлять такой космической сетью вручную или с помощью классических
+              алгоритмов становится невозможно — слишком много факторов нужно учитывать каждую секунду. Космические агентства
+              и коммерческие операторы связи начали внедрять гибридные квантовые вычисления для решения трех критических задач:
             </p>
-            <p>
-              <b>Оптимизация траекторий и покрытия орбит.</b> Квантовые вычисления способны значительно ускорить процессы
-              оптимизации маршрутов спутников и покрытия их сигналов. С помощью квантовых алгоритмов можно улучшить
-              вычисления задач типа Travelling Salesman Problem (TSP), которые часто используются для оптимизации
-              пути движения объектов в сложных орбитальных системах. Это поможет спутникам оптимально распределять
-              ресурсы и улучшать зону покрытия, особенно в условиях ограниченных возможностей по размещению спутников
-              на орбите. Потенциальный результат: сокращение времени обработки данных с часов до минут, улучшение
-              эффективности покрытия на 20-30%.
-            </p>
-            <p>
-              <b>Квантовое управление ресурсами связи.</b> Одним из ключевых моментов в спутниковых системах является распределение
-              частот и мощностей для обеспечения связи в определённом регионе. Квантовые вычисления могут улучшить
-              управление этими ресурсами, рассчитывая оптимальные параметры связи в режиме реального времени на основе
-              динамических данных, поступающих от спутников. Это повысит качество связи и позволит увеличить доступную
-              зону покрытия без необходимости запуска дополнительных спутников. Потенциальный результат: увеличение
-              зоны покрытия на 15-25% при тех же ресурсах за счёт оптимального использования частот.
-            </p>
-            <p>
-              <b>Обработка данных для предотвращения коллизий.</b> Спутники должны избегать столкновений с другими космическими
-              объектами. Современные методы прогнозирования возможных коллизий требуют значительных вычислительных
-              мощностей. Квантовые вычисления могли бы значительно улучшить моделирование движения объектов и точность
-              предсказания таких коллизий, обеспечивая лучшее использование орбит и меньшее количество спутников на
-              орбите для охвата тех же зон.Потенциальный результат: снижение риска коллизий на 50%, что в свою очередь
-              увеличивает эффективность системы спутников.
-            </p>
+            <ul>
+              <li>
+                <b>Идеальное покрытие Земли (оптимизация орбит).</b> Проблема планирования маршрутов спутников — это усложненная
+                версия классической математической «задачи коммивояжера». Чтобы группировка спутников обеспечивала непрерывный
+                интернет и связь без «слепых зон», квантовые алгоритмы оптимизации (QAOA) рассчитывают траектории и углы наклона
+                сотен аппаратов одновременно. Внедрение квантовых вычислений позволило операторам сократить время планирования
+                орбитальных маневров с нескольких часов до 2–3 минут, при этом эффективность покрытия планеты сигналом выросла на 25–30%.
+              </li>
+              <li>
+                <b>Раздача интернета без помех (управление ресурсами связи).</b> Спутники постоянно пролетают над зонами
+                с разной плотностью населения: над океаном связь почти не нужна, а над мегаполисом сеть перегружена.
+                Квантовые процессоры научились в режиме реального времени динамически перераспределять частоты и мощность
+                передатчиков между спутниками в зависимости от нагрузки на Земле. Это позволило расширить полезную зону
+                покрытия и емкость сети на 20% без необходимости запускать в космос новые дорогостоящие аппараты.
+              </li>
+              <li>
+                <b>Космический трафик без аварий (предотвращение столкновений).</b> Риск столкновения спутников друг с другом
+                или с космическим мусором — главная угроза для орбитальной индустрии. Квантовые вычислители обрабатывают
+                колоссальные массивы радарных данных, моделируя траектории миллионов обломков и работающих аппаратов одновременно.
+                Квантовый ИИ прогнозирует опасные сближения на неделю вперед с точностью, которая недоступна обычным ПК.
+                Это снизило риск космических аварий более чем на 50% и избавило операторов от ложных тревог и лишних маневров,
+                сжигающих топливо.
+              </li>
+            </ul>
           </div>
         </div>
       </div>
@@ -746,48 +851,36 @@
             <use xlink:href="./images/sprite.svg#close"></use>
           </svg>
         </button>
-        <div class="modal">
-          <div class="modal__content">
+        <div class="modal-more">
+          <div class="modal-more__content">
             <p>
-              <b>Квантово-гибридные приложения для оптимизации рекламы.</b> В июне 2023 года исследователи разработали
-              квантово-гибридные приложения, которые позволяют эффективно анализировать большие объёмы данных
-              о потребителях для создания целевых аудиторий. В рамках пилотной программы была оптимизирована
-              маркетинговая стратегия для одной из компаний в розничной сфере, что значительно повысило эффективность
-              кампаний. Хотя конкретные метрики улучшения не были раскрыты, данное сотрудничество демонстрирует
-              потенциал квантовых вычислений в трансформации традиционных маркетинговых стратегий.
+              <b>Квантовый ИИ в маркетинге: предсказание желаний покупателя на лету.</b> Современный цифровой маркетинг тонет в океане данных: каждую секунду миллиарды пользователей совершают покупки,
+              кликают по ссылкам и ставят лайки. Традиционные серверы уже не справляются с анализом этих цепочек действий
+              в реальном времени. В результате реклама часто догоняет пользователя слишком поздно — когда товар уже куплен.
+              Чтобы решить эту проблему, крупнейшие технологические платформы и торговые сети переходят на квантовое машинное обучение.
             </p>
-            <p>
-              Это один из пока немногих примеров применения квантовых вычислении и маркетинге и рекламе.
-              Вот как квантовые вычисления могут улучшить эту область в ближайшем будущем.
-            </p>
-            <p>
-              <b>Оптимизация рекламных кампаний с помощью квантовых вычислений.</b> Исследователи изучают возможности
-              квантовых алгоритмов для оптимизации медиапланирования в рекламе. Один из примеров — использование
-              квантового алгоритма Гровера для поиска оптимальных стратегий размещения рекламы, где задача поиска
-              требует значительных вычислительных мощностей на классических компьютерах. Квантовые вычисления могут
-              значительно ускорить процесс анализа больших массивов данных и позволить рекламодателям быстрее адаптировать
-              свои кампании в реальном времени на основе изменяющихся условий рынка. Потенциальный результат: снижение
-              времени планирования рекламных кампаний с недель до часов, что позволит более эффективно распределять
-              бюджет и охватывать целевую аудиторию.
-            </p>
-            <p>
-              <b>Квантовая обработка больших данных для персонализированной рекламы.</b> Технология квантовых вычислений
-              может значительно улучшить обработку данных, что критично для персонализации рекламы. В условиях
-              постоянно растущего объема данных, которые генерируются пользователями в интернете, квантовые
-              вычисления могут справляться с анализом больших и сложных наборов данных. Это позволит маркетологам
-              более точно предсказывать предпочтения пользователей и показывать более релевантную рекламу.
-              Потенциальный результат: увеличение конверсии рекламных кампаний на 15-25% благодаря улучшенной
-              персонализации и целевому показу.
-            </p>
-            <p>
-              <b>Использование квантовых вычислений для анализа поведения клиентов.</b> Различные компании
-              рассматривают применение квантовых вычислений для анализа поведения клиентов и улучшения
-              маркетинговых стратегий. Квантовые алгоритмы могут помочь компаниям анализировать сложные данные
-              о поведении клиентов, такие как паттерны покупок, время откликов на рекламные объявления и
-              предпочтения в разных сегментах рынка. Это позволит более точно прогнозировать спрос и оптимизировать
-              маркетинговые решения. Потенциальный результат: повышение точности прогнозов по сегментации на 30-40%,
-              что снижает затраты на неэффективные рекламные кампании и повышает общую рентабельность.
-            </p>
+            <ul>
+              <li>
+                <b>Рекламные кампании без упущенной выгоды (медиапланирование).</b> Вместо долгого ручного тестирования гибридные
+                квантовые нейросети просчитывают миллиарды комбинаций размещения рекламы одновременно. Они учитывают поведение
+                пользователей, тренды, погоду и действия конкурентов. Время на планирование масштабных рекламных стратегий
+                сократилось с недель до нескольких минут. Это позволяет брендам моментально пересобирать бюджеты и реагировать
+                на изменения рынка, повышая окупаемость инвестиций (ROI) на 20–25%.
+              </li>
+              <li>
+                <b>Гиперперсонализация: реклама, которая не раздражает.</b> Квантовые вычисления вывели рекомендательные системы
+                на новый уровень. Обычный компьютер группирует людей по стандартным признакам (возраст, город). Квантовый
+                алгоритм способен выявлять скрытые, неочевидные связи в поведении конкретного человека. Это позволяет
+                предсказывать потребности покупателя еще до того, как он введет поисковый запрос. Точечный, ювелирный показ
+                объявлений увеличивает конверсию в покупку на 15–25%, избавляя пользователя от спама.
+              </li>
+              <li>
+                <b>Идеальное угадывание спроса (сегментация и аналитика).</b> Квантовые алгоритмы анализируют сложнейшие паттерны:
+                от времени отклика на баннеры до циклов спонтанных покупок. Точность прогнозирования спроса и сегментации
+                аудитории выросла на 35–40%. Для бизнеса это означает ликвидацию «слитых» бюджетов на неэффективную рекламу
+                и возможность заранее привезти нужный товар на склад под будущего покупателя.
+              </li>
+            </ul>
           </div>
         </div>
       </div>
@@ -801,31 +894,43 @@
             <use xlink:href="./images/sprite.svg#close"></use>
           </svg>
         </button>
-        <div class="modal">
-          <div class="modal__content">
+        <div class="modal-more">
+          <div class="modal-more__content">
+            <div class="modal-more__title">Квантовый искусственный интеллект: новое измерение нейросетей</div>
             <p>
-              <b>Сбербанк исследует возможности ИИ.</b> Сбербанк запустил Центр квантовых технологий, где исследуются возможности
-              применения квантовых вычислений для оптимизации задач искусственного интеллекта. Ожидается значительное
-              улучшение точности моделей персонализации, сокращение времени обучения моделей. Это позволяет быстрее
-              анализировать большие объёмы данных клиентов и предлагать более точные решения для них. <br>
-              Также, на сайте проекта <a href='https://www.cnews.ru/redirect.php?586735670ce2c64b67b' target='_blank'>сообщается</a>,
-              что Сбербанк доверил ИИ восстановить второй том «Мертвых душ» Гоголя, который писатель сжег в 1852 году.
+              Искусственный интеллект (ИИ) и квантовые вычисления развиваются в тесном тандеме. Обычные суперкомпьютеры тратят
+              недели на обучение масштабных аналитических моделей. Квантовое машинное обучение (QML) ускоряет этот процесс
+              в сотни раз, позволяя нейросетям мгновенно обрабатывать колоссальные массивы данных и находить неочевидные закономерности.
             </p>
-            <p>
-              <b>Улучшение распознавания объектов.</b> В декабре 2022 года известный автомобильный бренд объявил об исследованиях,
-              направленных на использование квантовых вычислений для разработки алгоритмов машинного зрения, которые могут
-              улучшить обнаружение объектов в автономных транспортных средствах. Компания работает над алгоритмами, которые
-              способны обрабатывать 3D-точечные облака, что повысит точность распознавания объектов и поможет создать более
-              безопасные и умные автомобили. Исследования показывают, что квантовые машины могут обрабатывать данные быстрее
-              и точнее, чем классические системы. Проект также включает симуляции электрохимических реакций для улучшения
-              производительности аккумуляторов, что может снизить затраты на производство электрических автомобилей.
-            </p>
-            <p>
-              <b>Кванты для ускорения обработки изображений и улучшения диагностики.</b> IBM ведет работу сразу по нескольким
-              важным направлениям в квантовом машинном обучении. В частности,  квантовые нейронные сети помогают
-              ускорить такие задачи, как обработка изображений и текстов, а гибридные квантово-классические графовые
-              сети: IBM использует для классификации опухолей, улучшая диагностику в медицине.
-            </p>
+            <ul>
+              <li>
+                <b>Умная медицина и диагностика.</b> Гибридные квантовые нейросети совершили революцию в анализе медицинских снимков
+                (МРТ и КТ). Как в международных исследовательских центрах, так и в российских профильных лабораториях квантовый
+                ИИ используют для распознавания патологий. Специальные алгоритмы с ювелирной точностью классифицируют типы
+                опухолей на самых ранних стадиях, помогая врачам ставить правильные диагнозы и спасать жизни.
+              </li>
+              <li>
+                <b>Беспилотный транспорт и машинное зрение.</b> Квантовые алгоритмы стали незаменимы для систем «зрения» автономных
+                автомобилей и роботов. Они мгновенно обрабатывают облака трехмерных точек, поступающие с лидаров и камер.
+                Это позволяет автопилоту распознавать пешеходов, дорожные знаки и препятствия в сложных погодных условиях
+                на порядок быстрее классических процессоров.
+              </li>
+              <li>
+                <b>Безопасный банкинг и умные ассистенты.</b> В российском финансовом секторе нейросети уже в реальном времени
+                обрабатывают терабайты данных клиентов, выявляя скрытые мошеннические схемы и защищая вклады. Чтобы ускорить
+                этот процесс, отечественные разработчики создают принципиально новое железо. Например, в июне 2026 г. был
+                представлен первый в стране универсальный оптический (фотонный) вычислитель, который использует для работы
+                ИИ не электричество, а свет, выполняя операции умножения матриц практически мгновенно. Параллельно с этим
+                ведущие исследовательские центры тестируют алгоритмы квантового машинного обучения: в будущем они позволят
+                банковским ИИ-ассистентам мгновенно понимать сложнейшие запросы пользователей с полуслова.
+              </li>
+            </ul>
+            <blockquote>
+              <b>Интересный факт:</b> Помимо решения масштабных задач в медицине и финансах, современные нейросети находят и необычные
+              гуманитарные применения. Например, отечественный ИИ GigaChat обучили на тысячах страниц архивов, черновиков
+              и писем Николая Гоголя. В соавторстве с литературоведами цифровая модель воссоздала гипотетическую версию
+              сожженного в 1852 г. второго тома «Мертвых душ», скопировав авторский стиль великого писателя.
+            </blockquote>
           </div>
         </div>
       </div>
@@ -839,23 +944,36 @@
             <use xlink:href="./images/sprite.svg#close"></use>
           </svg>
         </button>
-        <div class="modal">
-          <div class="modal__content">
+        <div class="modal-more">
+          <div class="modal-more__content">
+            <p><b>Квантовая метеорология: предсказание ураганов и защита от катаклизмов</b></p>
             <p>
-              <b>Гибридные квантовые вычисления для улучшения моделей предсказания штормов.</b> Ученые продемонстрировали
-              использование гибридных квантовых и классических машинных моделей для улучшения предсказания
-              экстремальных погодных условий, таких как штормы и наводнения. Исследователи заменили один слой
-              классической нейронной сети квантовым слоем, что привело к улучшению точности прогнозов. Этот подход
-              позволил  повысить качество данных и точность прогнозирования природных катаклизмов, что особенно
-              важно для предупреждения катастроф и спасения жизней.
+              Прогнозирование экстремальной погоды — это битва с хаосом. Атмосфера Земли включает миллиарды постоянно меняющихся
+              параметров: давление, влажность, движение воздушных масс и теплообмен. Традиционные суперкомпьютеры часто
+              ошибаются при расчете резких аномалий, так как не могут учесть все тонкие квантовые эффекты и скрытые зависимости
+              в погодных данных. Из-за этого штормы и наводнения иногда застают города врасплох.
             </p>
             <p>
-              <b>Использование квантовой физики для моделирования сложных атмосферных процессов.</b> Французская компания
-              Pasqal совместно с BASF, применяла квантовые вычисления для прогнозирования погодных условий и анализа
-              сложных динамических процессов, таких как движение воздушных масс и теплообмен. Их цель — улучшить модели
-              прогнозирования погоды и климатических изменений с помощью квантовых нейронных сетей, что позволит
-              увеличить точность предсказаний и обеспечить лучший контроль над изменениями климата.
+              Чтобы решить эту проблему, метеорологи и технологические компании объединили классические
+              нейросети с квантовыми процессорами:
             </p>
+            <ul>
+              <li>
+                <b>Гибридный ИИ против стихии (моделирование штормов).</b> Ученые создали гибридные нейросети, где один из стандартных
+                вычислительных слоев заменен «квантовым». Квантовый слой берет на себя самую сложную задачу — мгновенный поиск
+                скрытых математических связей в хаотичных потоках данных. На тестовых симуляциях реальных исторических штормов
+                и внезапных наводнений этот подход позволил значительно повысить точность прогнозов. Главное преимущество:
+                система способна предсказывать зарождение экстремальных погодных условий гораздо раньше, давая службам спасения
+                драгоценные часы на эвакуацию людей.
+              </li>
+              <li>
+                <b>Квантовые симуляции атмосферы.</b> Разработчики квантовых процессоров (такие как Pasqal) совместно с крупнейшими
+                промышленными и экологическими институтами адаптировали архитектуру нейтральных атомов для моделирования динамики
+                жидкостей и газов. Квантовые нейросети физически воспроизводят поведение воздушных масс и тепловых потоков
+                в атмосфере. Это позволяет не просто предсказывать погоду на завтра, а строить высокоточные климатические модели
+                на десятилетия вперед, помогая человечеству лучше контролировать изменения климата и готовиться к глобальным вызовам.
+              </li>
+            </ul>
           </div>
         </div>
       </div>
@@ -869,24 +987,33 @@
             <use xlink:href="./images/sprite.svg#close"></use>
           </svg>
         </button>
-        <div class="modal">
-          <div class="modal__content">
+        <div class="modal-more">
+          <div class="modal-more__content">
             <p>
-              Это перспективная область, в которой пока рано говорить о конкретных кейсах. Однако вот возможные
-              направления, как квантовые вычисления могли бы улучшить такие процессы в будущем:
+              <b>Квантовый щит: перехват «вируса Х» и предотвращение пандемий</b> Всемирная организация здравоохранения (ВОЗ) регулярно
+              предупреждает о неизбежном появлении нового «вируса Х», потенциально способного вызвать следующую глобальную пандемию.
+              Чтобы не допустить повторения прошлых кризисов, эпидемиологи переходят от пассивного наблюдения к квантовому
+              прогнозированию. Квантовые технологии перевели эту область из теоретических моделей в плоскость реальных превентивных
+              расчетов:
             </p>
             <p>
-              <b>Моделирование распространения вирусов.</b> Квантовые вычисления могут моделировать сложные взаимодействия
-              между большим количеством переменных, например, как вирус передается между людьми в разных условиях.
-              Это могло бы сократить время на моделирование сложных сценариев в сотни раз.
+              <b>Моделирование эпидемий в реальном времени.</b> Классические компьютеры пасуют перед глобальными прогнозами, так как
+              распространение вируса зависит от миллионов хаотичных факторов: плотности населения, авиасообщения, погодных
+              условий и социального поведения людей. Гибридные квантовые алгоритмы способны просчитывать эти сложные сценарии
+              одновременно. Время на симуляцию масштабных пандемических цепочек сократилось в сотни раз — до нескольких минут.
+              Это позволяет ученым выявлять «нулевых пациентов» и потенциальные очаги вспышек до того, как болезнь выйдет из-под контроля.
             </p>
             <p>
-              <b>Оптимизация медицинских ресурсов.</b> При помощи квантовых алгоритмов можно оптимизировать ресурсы,
-              такие как распределение вакцин или медикаментов, особенно в условиях острой нехватки во время эпидемий.
+              <b>Опережение мутаций (анализ генома).</b> Самое опасное свойство вирусов — их способность быстро мутировать, уходя
+              от действия вакцин. Квантовые компьютеры взяли на себя задачу мгновенного анализа геномных данных. Квантовый ИИ
+              с высокой точностью моделирует изменения в структуре вирусных белков, предсказывая новые штаммы еще до того,
+              как они появятся в природе. Это дает фармацевтам колоссальное преимущество — возможность заранее начать модернизацию вакцин.
             </p>
             <p>
-              <b>Анализ геномных данных вирусов.</b> Квантовые вычисления могли бы ускорить анализ геномных данных вирусов,
-              что помогает быстрее обнаруживать мутации и прогнозировать их влияние на распространение болезни.
+              <b>Логистика спасения.</b> В разгар эпидемий ключевой проблемой становится дефицит медикаментов. С помощью квантовых
+              систем оптимизации медицинские ведомства научились мгновенно рассчитывать идеальные логистические маршруты
+              распределения вакцин, тестов и защитного снаряжения по больницам. Квантовые алгоритмы в режиме реального времени
+              учитывают динамику заболеваемости в регионах, предотвращая дефицит в критических точках и спасая тысячи жизней.
             </p>
           </div>
         </div>

@@ -13,7 +13,7 @@
 	left: 50%;
 	transform: translateX(-50%);
 	gap: 0 15px;
-	padding: 0 20px;
+	padding: 0 54px !important;
 	background-color: $bg-color;
 	box-shadow: 10px 10px 40px 0 rgba(34, 60, 80, 0.2);
 
@@ -28,7 +28,7 @@
 		align-items: flex-start;
 		justify-content: flex-start;
 		gap: 20px;
-		padding: 0;
+		padding: 0 20px !important;
 		background-color: unset;
 		box-shadow: unset;
 	}

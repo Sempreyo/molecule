@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
+	const body = document.body;
 	const myModal = new HystModal({
 		linkAttributeName: "data-hystmodal"
 	});
@@ -37,27 +38,6 @@ document.addEventListener("DOMContentLoaded", () => {
 				el.addEventListener("click", function () {
 					$.fn.pagepiling.moveTo(el.getAttribute("data-anchortop"));
 				});
-
-				/* Тултип при наведении на атом */
-				el.addEventListener("mouseover", () => {
-					const tooltip = document.querySelector(".graphic-tooltip");
-
-					tooltip.classList.add("graphic-tooltip--open");
-				});
-
-				el.addEventListener("mouseleave", () => {
-					const tooltip = document.querySelector(".graphic-tooltip");
-
-					tooltip.classList.remove("graphic-tooltip--open");
-				});
-
-				el.addEventListener("mousemove", (e) => {
-					const tooltip = document.querySelector(".graphic-tooltip");
-					tooltip.innerHTML = el.getAttribute("data-tooltip");
-
-					tooltip.style.top = e.pageY - tooltip.offsetHeight / 2 + 'px';
-					tooltip.style.left = e.pageX - tooltip.offsetWidth / 2 + 'px';
-				});
 			});
 
 			/* Открытие инфографики */
@@ -68,6 +48,7 @@ document.addEventListener("DOMContentLoaded", () => {
 			if (graphicPreview) {
 				graphicPreview.addEventListener("click", () => {
 					graphic.classList.add("open");
+					body.style.overflow = "hidden";
 
 					/* Анимация мигания атомов при открытии */
 					topAnchors.forEach((el, index) => {
@@ -81,6 +62,7 @@ document.addEventListener("DOMContentLoaded", () => {
 			if (closeButton) {
 				closeButton.addEventListener("click", () => {
 					graphic.classList.remove("open");
+					body.style.overflow = "auto";
 
 					/* После закрытия перемещаем на первый блок */
 					setTimeout(() => {

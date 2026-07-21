@@ -13,6 +13,7 @@
 
 	&--bg {
 		display: flex;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		background-repeat: no-repeat;
@@ -28,6 +29,43 @@
 		}
 	}
 
+	&__main-title {
+		position: relative;
+		font-family: $openSansFont;
+		font-size: 24px;
+		text-align: center;
+		margin-bottom: 40px;
+
+		@include min(t) {
+			font-size: 40px;
+		}
+
+		@include min(ti) {
+			font-size: vw(65);
+		}
+
+		svg {
+			width: 20px !important;
+			height: 20px !important;
+			animation: scaleDown 4s infinite linear;
+			margin: 0 10px;
+
+			@include min(ti) {
+				width: 25px !important;
+				height: 25px !important;
+			}
+		}
+	}
+
+	&__small-text {
+		font-family: $mainFont;
+		font-size: 16px;
+
+		@include min(ti) {
+			font-size: vw(21);
+		}
+	}
+
 	&__icon {
 		position: relative;
 		max-width: 800px;
@@ -40,15 +78,20 @@
 
 		g {
 			position: relative;
-
-			@include min(ti) {
-				cursor: none;
-			}
+			cursor: pointer;
 
 			&:hover {
 				transform: scale(1.2);
 				transform-origin: 50% 50%;
 				transform-box: fill-box;
+			}
+
+			&::before {
+				content: attr(data-tooltip);
+			}
+
+			text {
+				pointer-events: none;
 			}
 		}
 	}

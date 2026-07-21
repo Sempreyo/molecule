@@ -58,48 +58,48 @@ main {
 	z-index: 1;
 }
 
-a {
-	color: $black;
-	text-decoration: none;
-}
+	a {
+		color: $black;
+		text-decoration: none;
+	}
 
-ul,
-ol,
-nav {
-	list-style: none;
-	padding: 0;
-}
+	ul,
+	ol,
+	nav {
+		list-style: none;
+		padding: 0;
+	}
 
-svg {
-	width: auto;
-	height: auto;
-}
+	svg:not(.desc__logo) {
+		width: auto;
+		height: auto;
+	}
 
-img {
-	display: block;
-	max-width: 100%;
-}
+	img {
+		display: block;
+		max-width: 100%;
+	}
 
-input,
-button {
-	-webkit-appearance: none;
-}
+	input,
+	button {
+		-webkit-appearance: none;
+	}
 
-input,
-button,
-select,
-textarea {
-	font: inherit;
-	background-color: transparent;
-	border: 0;
-	border-radius: 0;
-	outline: 0;
-}
+	input,
+	button,
+	select,
+	textarea {
+		font: inherit;
+		background-color: transparent;
+		border: 0;
+		border-radius: 0;
+		outline: 0;
+	}
 
-input,
-textarea {
-	padding: 0;
-	margin: 0;
+	input,
+	textarea {
+		padding: 0;
+		margin: 0;
 
 	&:focus::placeholder {
 		opacity: 0;
