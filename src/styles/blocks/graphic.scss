@@ -2,6 +2,7 @@
 	width: 100%;
 	height: 100%;
 	padding: 80px 20px 50px;
+	box-sizing: border-box;
 
 	@include min(ti) {
 		padding: 50px 100px 50px 50px;
@@ -12,18 +13,32 @@
 	}
 
 	&--bg {
+		padding: 0;
+	}
+
+	&__inner {
+		position: relative;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
+		width: 100%;
 		background-repeat: no-repeat;
 		background-size: cover;
+		padding: 80px 20px 50px;
+
+		@include min(ti) {
+			padding: 50px 100px 50px 50px;
+		}
+
+		@media (max-width: 1023px) and (orientation: landscape) {
+			padding: 80px 20px 50px;
+		}
 
 		&::before {
 			content: "";
 			position: absolute;
 			inset: 0;
-			bottom: -5px;
 			background-color: rgba($black, 0.4);
 			backdrop-filter: blur(20px);
 		}
@@ -106,11 +121,6 @@
 	}
 
 	&__note {
-		position: absolute;
-		left: 50%;
-		bottom: 10px;
-		transform: translateX(-50%);
-
 		svg {
 			color: rgba($white, 0.5);
 			animation: moveUp 2s infinite linear;
